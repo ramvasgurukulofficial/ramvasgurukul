@@ -1,0 +1,249 @@
+/* GLOBAL */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI, Arial, sans-serif;
+}
+
+body{
+background:#f5f7fa;
+color:#333;
+line-height:1.6;
+}
+
+/* HEADER */
+
+header{
+position:sticky;
+top:0;
+background:#1d3557;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:12px 40px;
+z-index:1000;
+box-shadow:0 3px 10px rgba(0,0,0,0.2);
+}
+
+.logo img{
+height:55px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:18px;
+font-size:15px;
+transition:0.3s;
+}
+
+nav a:hover
+
+/* HERO SECTION */
+
+.hero{
+background:linear-gradient(135deg,#1d3557,#457b9d);
+color:white;
+padding:90px 40px;
+}
+
+.hero-container{
+max-width:1200px;
+margin:auto;
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:40px;
+}
+
+.hero-text h1{
+font-size:40px;
+margin-bottom:20px;
+}
+
+.hero-text p{
+font-size:18px;
+margin-bottom:25px;
+}
+
+.hero-image img{
+width:320px;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* BUTTONS */
+
+.btn{
+display:inline-block;
+padding:14px 26px;
+background:#ffbe0b;
+color:black;
+text-decoration:none;
+border-radius:6px;
+font-weight:600;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#ffd84a;
+transform:translateY(-2px);
+}
+
+.btn-secondary{
+background:white;
+color:#1d3557;
+margin-left:10px;
+}
+
+.btn-secondary:hover
+
+/* CONTENT SECTIONS */
+
+.page-section{
+padding:70px 40px;
+background:white;
+max-width:1100px;
+margin:40px auto;
+border-radius:10px;
+box-shadow:0 6px 20px rgba(0,0,0,0.08);
+}
+
+.page-section h1{
+font-size:32px;
+margin-bottom:20px;
+color:#1d3557;
+}
+
+.page-section h2{
+font-size:24px;
+margin-top:30px;
+margin-bottom:15px;
+color:#1d3557;
+}
+
+.page-section p{
+margin-bottom:18px;
+}
+
+.page-section ul{
+padding-left:20px;
+}
+
+.page-section li{
+margin-bottom:10px;
+}
+
+/* BLOG / COURSES GRID */
+
+.courses-section{
+padding:60px 40px;
+}
+
+.courses-container{
+max-width:1200px;
+margin:auto;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+}
+
+.course-card{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 6px 20px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.course-card:hover{
+transform:translateY(-6px);
+box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+
+.course-card h2{
+font-size:20px;
+margin-bottom:10px;
+color:#1d3557;
+}
+
+.course-card p{
+font-size:15px;
+margin-bottom:18px;
+color:#555;
+line-height:1.5;
+}
+
+/* FOOTER */
+
+footer{
+background:#1d3557;
+color:white;
+text-align:center;
+padding:30px 20px;
+margin-top:60px;
+}
+
+/* WHATSAPP BUTTON */
+
+.whatsapp-float{
+position:fixed;
+bottom:25px;
+right:25px;
+background:#25D366;
+color:white;
+padding:14px 20px;
+border-radius:40px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 6px 15px rgba(0,0,0,0.3);
+transition:0.3s;
+}
+
+.whatsapp-float:hover{
+background:#1ebe5d;
+transform:scale(1.05);
+}
+
+/* MOBILE RESPONSIVE */
+
+@media(max-width:900px){
+
+header{
+flex-direction:column;
+align-items:flex-start;
+}
+
+nav{
+margin-top:10px;
+}
+
+.hero-container{
+flex-direction:column;
+text-align:center;
+}
+
+.hero-text h1{
+font-size:28px;
+}
+
+.hero-image img{
+width:250px;
+margin-top:20px;
+}
+
+.page-section{
+margin:20px;
+padding:40px 20px;
+}
+
+.btn{
+display:block;
+width:100%;
+margin-top:10px;
+text-align:center;
+}
+
+}
