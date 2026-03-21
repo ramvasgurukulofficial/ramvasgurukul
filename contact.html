@@ -1,126 +1,849 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ═══ PRIMARY SEO ═══ -->
+  <title>Contact Us | Ramvas Gurukul – Online Coaching Class 9 & 10</title>
+  <meta name="description" content="Contact Ramvas Gurukul for course details, class timings, fees, and free demo booking. Reach Shivam Sir on WhatsApp (+91 8700290436), phone, or email. Available Mon–Sun, 10 AM – 8 PM IST.">
+  <meta name="keywords" content="contact Ramvas Gurukul, Ramvas Gurukul phone number, Shivam Sir contact number, online coaching contact class 9 10, WhatsApp coaching class 9 10, online tutor contact Delhi, Ramvas Gurukul WhatsApp, coaching class 9 10 enquiry, book demo class online coaching">
+  <meta name="author" content="Shivam Mishra – Ramvas Gurukul">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <link rel="canonical" href="https://www.ramvasgurukul.com/contact.html">
 
-<title>Contact | Ramvas Gurukul</title>
+  <!-- ═══ OPEN GRAPH ═══ -->
+  <meta property="og:type"         content="website">
+  <meta property="og:url"          content="https://www.ramvasgurukul.com/contact.html">
+  <meta property="og:title"        content="Contact Ramvas Gurukul | Online Coaching Class 9 & 10">
+  <meta property="og:description"  content="Get in touch for course details, fees & demo booking. Available on WhatsApp, phone & email. Mon–Sun, 10 AM – 8 PM.">
+  <meta property="og:image"        content="https://www.ramvasgurukul.com/images/og-image.jpg">
+  <meta property="og:image:width"  content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name"    content="Ramvas Gurukul">
+  <meta property="og:locale"       content="en_IN">
 
-<meta name="description" content="Contact Ramvas Gurukul for course details, class timings, and demo class booking.">
+  <!-- ═══ TWITTER CARD ═══ -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="Contact Ramvas Gurukul">
+  <meta name="twitter:description" content="Reach Shivam Sir on WhatsApp, phone or email. Available Mon–Sun, 10 AM – 8 PM IST.">
+  <meta name="twitter:image"       content="https://www.ramvasgurukul.com/images/og-image.jpg">
 
-<link rel="stylesheet" href="style.css">
+  <!-- ═══ GEO / LOCAL SEO ═══ -->
+  <meta name="geo.region"    content="IN-DL">
+  <meta name="geo.placename" content="Delhi, India">
+  <meta name="theme-color"   content="#0f2a4e">
 
+  <!-- ═══ SCHEMA.ORG ═══ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://www.ramvasgurukul.com/#organization",
+        "name": "Ramvas Gurukul",
+        "url": "https://www.ramvasgurukul.com",
+        "logo": "https://www.ramvasgurukul.com/images/logo.png",
+        "description": "Online coaching for Class 9 & 10 students via live Zoom classes. Concept-based teaching by Shivam Sir.",
+        "telephone": "+918700290436",
+        "email": "ramvasgurukulofficial@gmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "Delhi",
+          "addressCountry": "IN"
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+          "opens": "10:00",
+          "closes": "20:00"
+        },
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "telephone": "+918700290436",
+            "contactType": "customer service",
+            "areaServed": "IN",
+            "availableLanguage": ["Hindi","English"],
+            "hoursAvailable": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+              "opens": "10:00",
+              "closes": "20:00"
+            }
+          }
+        ],
+        "sameAs": [
+          "https://www.youtube.com/@RAMVASGURUKULOFFICIAL",
+          "https://www.instagram.com/ramvasgurukulofficial",
+          "https://www.facebook.com/profile.php?id=61584875817127",
+          "https://t.me/Ramvasgurukulofficial",
+          "https://www.linkedin.com/in/shivam-mishra-a901b33b5"
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home",    "item": "https://www.ramvasgurukul.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Contact", "item": "https://www.ramvasgurukul.com/contact.html" }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <style>
+    /* ── Contact page specific styles ── */
+
+    .contact-layout {
+      display: grid;
+      grid-template-columns: 1fr 390px;
+      gap: 52px;
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 64px 32px 72px;
+      align-items: start;
+    }
+
+    /* ── Contact method cards ── */
+    .contact-methods { display: flex; flex-direction: column; gap: 14px; margin-bottom: 32px; }
+
+    .contact-method-card {
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      padding: 22px 24px;
+      border: 1.5px solid var(--gray-200);
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      transition: var(--transition);
+      text-decoration: none;
+      color: inherit;
+      box-shadow: var(--shadow-xs);
+    }
+    .contact-method-card:hover {
+      border-color: var(--gold);
+      box-shadow: var(--shadow-md);
+      transform: translateY(-3px);
+    }
+    .contact-method-icon {
+      width: 56px;
+      height: 56px;
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 26px;
+      flex-shrink: 0;
+    }
+    .icon-whatsapp { background: rgba(37,211,102,0.12); }
+    .icon-phone    { background: rgba(15,42,78,0.09); }
+    .icon-email    { background: rgba(245,158,11,0.10); }
+    .icon-telegram { background: rgba(0,136,204,0.10); }
+
+    .contact-method-text { flex: 1; }
+    .contact-method-text h3 {
+      font-family: var(--font-display);
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 3px;
+    }
+    .contact-method-text p {
+      font-size: 13.5px;
+      color: var(--text-muted);
+      margin-bottom: 5px;
+      line-height: 1.4;
+    }
+    .contact-method-text strong {
+      font-size: 15px;
+      color: var(--navy);
+      font-weight: 700;
+    }
+    .contact-method-arrow {
+      font-size: 20px;
+      color: var(--gray-200);
+      transition: color 0.2s, transform 0.2s;
+    }
+    .contact-method-card:hover .contact-method-arrow {
+      color: var(--gold);
+      transform: translateX(5px);
+    }
+
+    /* Hours card */
+    .hours-card {
+      background: linear-gradient(140deg, var(--navy), var(--navy-mid));
+      border-radius: var(--radius-lg);
+      padding: 28px 30px;
+      color: var(--white);
+      margin-bottom: 20px;
+      position: relative;
+      overflow: hidden;
+    }
+    .hours-card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+                        linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+      background-size: 30px 30px;
+    }
+    .hours-card h3 {
+      font-family: var(--font-display);
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 18px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      position: relative;
+    }
+    .hours-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      font-size: 14px;
+      position: relative;
+    }
+    .hours-row:last-of-type { border-bottom: none; }
+    .hours-row span { color: rgba(255,255,255,0.62); }
+    .hours-row strong { color: var(--white); }
+    .open-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 5px 14px;
+      border-radius: var(--radius-full);
+      margin-top: 18px;
+      position: relative;
+    }
+    .open-badge.is-open {
+      background: rgba(16,185,129,0.20);
+      border: 1px solid rgba(16,185,129,0.35);
+      color: #6ee7b7;
+    }
+    .open-badge.is-closed {
+      background: rgba(239,68,68,0.15);
+      border: 1px solid rgba(239,68,68,0.30);
+      color: #fca5a5;
+    }
+    .open-dot {
+      width: 7px; height: 7px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .is-open .open-dot  { background: #4ade80; animation: blink 1.4s infinite; }
+    .is-closed .open-dot { background: #f87171; }
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.3} }
+
+    /* Location note */
+    .location-note {
+      background: var(--off-white);
+      border-radius: var(--radius-lg);
+      padding: 22px 24px;
+      border: 1px solid var(--gray-200);
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      margin-bottom: 24px;
+      transition: var(--transition);
+    }
+    .location-note:hover { box-shadow: var(--shadow-sm); border-color: rgba(245,158,11,0.25); }
+    .location-note-icon { font-size: 32px; flex-shrink: 0; margin-top: 2px; }
+    .location-note h4 {
+      font-family: var(--font-display);
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 6px;
+    }
+    .location-note p { font-size: 14px; color: var(--text-muted); line-height: 1.7; }
+
+    /* Topic chips */
+    .topic-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .topic-chip {
+      font-size: 13px;
+      font-weight: 600;
+      background: var(--off-white);
+      color: var(--navy);
+      padding: 6px 15px;
+      border-radius: var(--radius-full);
+      border: 1.5px solid var(--gray-200);
+      transition: var(--transition);
+      cursor: default;
+    }
+    .topic-chip:hover { background: var(--navy); color: var(--white); border-color: var(--navy); }
+
+    /* ── RIGHT: Quick contact sidebar ── */
+    .contact-sidebar { position: sticky; top: 88px; }
+
+    .quick-contact-card {
+      background: var(--white);
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow-lg);
+      border: 1px solid var(--gray-200);
+      overflow: hidden;
+    }
+    .quick-contact-header {
+      background: linear-gradient(140deg, var(--navy), var(--navy-mid));
+      padding: 26px 30px;
+      text-align: center;
+      color: var(--white);
+      position: relative;
+      overflow: hidden;
+    }
+    .quick-contact-header::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+                        linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+      background-size: 28px 28px;
+    }
+    .quick-contact-header h2 {
+      font-family: var(--font-display);
+      font-size: 20px;
+      font-weight: 800;
+      margin-bottom: 5px;
+      position: relative;
+    }
+    .quick-contact-header p {
+      font-size: 13px;
+      color: rgba(255,255,255,0.70);
+      position: relative;
+    }
+    .quick-contact-body { padding: 28px 28px 24px; }
+
+    /* Quick action buttons */
+    .quick-btn {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      width: 100%;
+      padding: 15px 18px;
+      border-radius: 11px;
+      text-decoration: none;
+      font-family: var(--font-main);
+      font-size: 15px;
+      font-weight: 700;
+      margin-bottom: 11px;
+      transition: var(--transition);
+      border: 2px solid transparent;
+      position: relative;
+      overflow: hidden;
+    }
+    .quick-btn::before {
+      content: '';
+      position: absolute;
+      top: 0; left: -100%;
+      width: 60%; height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.20), transparent);
+      transition: left 0.4s ease;
+      pointer-events: none;
+    }
+    .quick-btn:hover::before { left: 150%; }
+
+    .quick-btn-icon {
+      width: 40px; height: 40px;
+      border-radius: 9px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      flex-shrink: 0;
+    }
+    .quick-btn-text strong { display: block; font-size: 14.5px; }
+    .quick-btn-text span   { font-size: 12px; font-weight: 400; opacity: 0.80; }
+
+    .qbtn-whatsapp {
+      background: #25D366;
+      color: var(--white);
+      box-shadow: 0 4px 16px rgba(37,211,102,0.30);
+    }
+    .qbtn-whatsapp .quick-btn-icon { background: rgba(255,255,255,0.18); }
+    .qbtn-whatsapp:hover { background: #1ebe5d; transform: translateY(-2px); box-shadow: 0 8px 26px rgba(37,211,102,0.45); }
+
+    .qbtn-phone {
+      background: var(--off-white);
+      color: var(--navy);
+      border-color: var(--gray-200);
+    }
+    .qbtn-phone .quick-btn-icon { background: rgba(15,42,78,0.08); }
+    .qbtn-phone:hover { background: var(--navy); color: var(--white); border-color: var(--navy); box-shadow: var(--shadow-md); }
+    .qbtn-phone:hover .quick-btn-icon { background: rgba(255,255,255,0.13); }
+
+    .qbtn-email {
+      background: var(--off-white);
+      color: var(--navy);
+      border-color: var(--gray-200);
+    }
+    .qbtn-email .quick-btn-icon { background: rgba(245,158,11,0.10); }
+    .qbtn-email:hover { background: var(--gold); color: var(--navy); border-color: var(--gold); box-shadow: var(--shadow-gold); }
+
+    /* Social quick links inside card */
+    .sidebar-social-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-top: 16px;
+    }
+    .sidebar-social-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      padding: 10px 12px;
+      border-radius: var(--radius-sm);
+      font-size: 13px;
+      font-weight: 700;
+      text-decoration: none;
+      transition: var(--transition);
+      border: 1px solid var(--gray-200);
+    }
+    .ss-yt   { color: #cc0000; background: rgba(255,0,0,0.06);     }
+    .ss-ig   { color: #e1306c; background: rgba(225,48,108,0.06);  }
+    .ss-tg   { color: #0088cc; background: rgba(0,136,204,0.06);   }
+    .ss-fb   { color: #1877f2; background: rgba(24,119,242,0.06);  }
+    .sidebar-social-btn:hover { transform: translateY(-2px); box-shadow: var(--shadow-sm); filter: brightness(1.05); }
+
+    @media (max-width: 920px) {
+      .contact-layout { grid-template-columns: 1fr; padding: 44px 20px 56px; gap: 36px; }
+      .contact-sidebar { position: static; }
+    }
+  </style>
 </head>
 
 <body>
 
-<header>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
 
-<div class="logo">
-<img src="images/logo.png" alt="Ramvas Gurukul Logo">
-</div>
+  <!-- ═══ HEADER ═══ -->
+  <header>
+    <div class="header-inner">
+      <div class="logo">
+        <a href="index.html" aria-label="Ramvas Gurukul Home">
+          <img src="images/logo.png" alt="Ramvas Gurukul Logo" width="46" height="46"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <div class="logo-icon-placeholder" style="display:none;">RG</div>
+          <div class="logo-text">
+            <span class="logo-name">Ramvas Gurukul</span>
+            <span class="logo-tagline">Concept-Based Learning</span>
+          </div>
+        </a>
+      </div>
+      <nav aria-label="Primary Navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="courses.html">Courses</a>
+        <a href="online-classes.html">Online Classes</a>
+        <a href="study-material.html">Study Material</a>
+        <a href="blog.html">Blog</a>
+        <a href="social-media.html">Social</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="demo.html" class="nav-cta">📌 Free Demo</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-nav" id="mobileNav" role="navigation" aria-label="Mobile Navigation">
+      <a href="index.html">🏠 Home</a>
+      <a href="about.html">👨‍🏫 About Shivam Sir</a>
+      <a href="courses.html">📚 Courses</a>
+      <a href="online-classes.html">💻 Online Classes</a>
+      <a href="study-material.html">📄 Study Material</a>
+      <a href="blog.html">✏️ Blog</a>
+      <a href="social-media.html">📱 Social Media</a>
+      <a href="contact.html">📞 Contact</a>
+      <a href="demo.html">📌 Book Free Demo Class</a>
+    </div>
+  </header>
 
-<nav>
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="courses.html">Courses</a>
-<a href="online-classes.html">Online Classes</a>
-<a href="study-material.html">Study Material</a>
-<a href="blog.html">Blog</a>
-<a href="demo.html">Book Free Demo</a>
-<a href="social-media.html">Social Media</a>
-<a href="contact.html">Contact</a>
-</nav>
+  <!-- ═══ BREADCRUMB ═══ -->
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <div class="breadcrumb-inner">
+      <a href="index.html">Home</a>
+      <span>›</span>
+      <span aria-current="page">Contact</span>
+    </div>
+  </nav>
 
-</header>
+  <main id="main-content">
 
-<section class="page-section">
+    <!-- ═══ PAGE HERO ═══ -->
+    <section class="page-hero" aria-labelledby="contact-hero-heading">
+      <div style="display:inline-flex;align-items:center;gap:7px;background:rgba(245,158,11,0.15);border:1px solid rgba(245,158,11,0.35);color:var(--gold);font-size:11px;font-weight:700;padding:6px 16px;border-radius:999px;margin-bottom:18px;text-transform:uppercase;letter-spacing:1.2px;">
+        ⚡ We Respond Fast on WhatsApp
+      </div>
+      <h1 id="contact-hero-heading">Get in Touch with <span>Ramvas Gurukul</span></h1>
+      <p>Questions about courses, fees, timings, or want to book a demo? Reach out on WhatsApp, phone, or email — we are happy to help every student and parent.</p>
+    </section>
 
-<h2>Contact Ramvas Gurukul</h2>
+    <!-- ═══ MAIN CONTACT LAYOUT ═══ -->
+    <div class="contact-layout">
 
-<p>
-If you have any questions about courses, class timings, fees, or enrollment, feel free to contact us. We are happy to assist you and provide the information you need.
-</p>
+      <!-- ── LEFT: Contact details ── -->
+      <div>
+        <div style="margin-bottom:28px;">
+          <span class="section-label">Reach Us</span>
+          <h2 class="section-title" style="margin-bottom:8px;">Contact Details</h2>
+          <p style="font-size:15.5px;color:var(--text-muted);line-height:1.8;max-width:480px;">
+            The fastest way to reach us is via <strong style="color:var(--navy);">WhatsApp</strong>. You can also call or email —
+            we respond to all enquiries promptly, usually within a few hours.
+          </p>
+        </div>
 
-<br><br>
+        <!-- Contact method cards -->
+        <div class="contact-methods" aria-label="Ways to contact Ramvas Gurukul">
 
-<h3>Phone Number</h3>
+          <a href="https://wa.me/918700290436?text=Hello%20Shivam%20Sir!%20I%20have%20a%20question%20about%20Ramvas%20Gurukul%20coaching."
+             class="contact-method-card"
+             target="_blank"
+             rel="noopener noreferrer"
+             aria-label="Chat on WhatsApp">
+            <div class="contact-method-icon icon-whatsapp">💬</div>
+            <div class="contact-method-text">
+              <h3>WhatsApp</h3>
+              <p>Fastest response — usually within a few hours</p>
+              <strong>+91 8700290436</strong>
+            </div>
+            <span class="contact-method-arrow" aria-hidden="true">→</span>
+          </a>
 
-<p><strong>8700290436</strong></p>
+          <a href="tel:+918700290436"
+             class="contact-method-card"
+             aria-label="Call Ramvas Gurukul">
+            <div class="contact-method-icon icon-phone">📞</div>
+            <div class="contact-method-text">
+              <h3>Phone Call</h3>
+              <p>Call directly for quick course or fee enquiries</p>
+              <strong>8700290436</strong>
+            </div>
+            <span class="contact-method-arrow" aria-hidden="true">→</span>
+          </a>
 
-<br>
+          <a href="mailto:ramvasgurukulofficial@gmail.com"
+             class="contact-method-card"
+             aria-label="Email Ramvas Gurukul">
+            <div class="contact-method-icon icon-email">✉️</div>
+            <div class="contact-method-text">
+              <h3>Email</h3>
+              <p>For detailed queries, feedback, or document sharing</p>
+              <strong>ramvasgurukulofficial@gmail.com</strong>
+            </div>
+            <span class="contact-method-arrow" aria-hidden="true">→</span>
+          </a>
 
-<h3>WhatsApp</h3>
+          <a href="https://t.me/Ramvasgurukulofficial"
+             class="contact-method-card"
+             target="_blank"
+             rel="noopener noreferrer"
+             aria-label="Join Telegram channel">
+            <div class="contact-method-icon icon-telegram">✈</div>
+            <div class="contact-method-text">
+              <h3>Telegram Channel</h3>
+              <p>Join for updates, free notes &amp; class announcements</p>
+              <strong>@Ramvasgurukulofficial</strong>
+            </div>
+            <span class="contact-method-arrow" aria-hidden="true">→</span>
+          </a>
 
-<p>
-You can connect with us directly on WhatsApp for quick inquiries, course information, or to book a demo class.
-</p>
+        </div>
 
-<br>
+        <!-- Hours card -->
+        <div class="hours-card" aria-label="Available hours">
+          <h3>🕐 Available Hours</h3>
+          <div class="hours-row">
+            <span>Monday – Friday</span>
+            <strong>10:00 AM – 8:00 PM IST</strong>
+          </div>
+          <div class="hours-row">
+            <span>Saturday</span>
+            <strong>10:00 AM – 8:00 PM IST</strong>
+          </div>
+          <div class="hours-row">
+            <span>Sunday</span>
+            <strong>10:00 AM – 8:00 PM IST</strong>
+          </div>
+          <div class="open-badge" id="openBadge">
+            <span class="open-dot" id="openDot"></span>
+            <span id="openText">Checking availability…</span>
+          </div>
+        </div>
 
-<a href="https://wa.me/918700290436"
-class="btn"
-target="_blank">
+        <!-- Location note -->
+        <div class="location-note">
+          <div class="location-note-icon">🌐</div>
+          <div>
+            <h4>100% Online — Available Across India</h4>
+            <p>Ramvas Gurukul conducts all classes online via Zoom. Students from any city, state, or region in India are warmly welcome — no physical location needed.</p>
+          </div>
+        </div>
 
-Chat on WhatsApp
+        <!-- Topic chips -->
+        <div style="margin-top:28px;">
+          <h3 style="font-family:var(--font-display);font-size:16px;font-weight:700;color:var(--navy);margin-bottom:14px;">
+            Common Reasons to Contact Us
+          </h3>
+          <div class="topic-chips" aria-label="Common contact topics">
+            <span class="topic-chip">Course details</span>
+            <span class="topic-chip">Fee structure</span>
+            <span class="topic-chip">Class timings</span>
+            <span class="topic-chip">Demo class booking</span>
+            <span class="topic-chip">Enrolment process</span>
+            <span class="topic-chip">Subjects available</span>
+            <span class="topic-chip">Recorded lectures</span>
+            <span class="topic-chip">Programming courses</span>
+            <span class="topic-chip">Study material access</span>
+            <span class="topic-chip">Board compatibility</span>
+            <span class="topic-chip">Batch schedule</span>
+            <span class="topic-chip">Parent feedback</span>
+          </div>
+        </div>
 
-</a>
+      </div>
 
-<br><br><br>
+      <!-- ── RIGHT: Quick contact sidebar ── -->
+      <div class="contact-sidebar">
 
-<h3>Email</h3>
+        <div class="quick-contact-card">
+          <div class="quick-contact-header">
+            <h2>Reach Us Instantly</h2>
+            <p>Pick the method that works best for you</p>
+          </div>
 
-<p>ramvasgurukulofficial@gmail.com</p>
+          <div class="quick-contact-body">
 
-<br><br>
+            <a href="https://wa.me/918700290436?text=Hello%20Shivam%20Sir!%20I%20want%20to%20know%20more%20about%20Ramvas%20Gurukul%20coaching."
+               class="quick-btn qbtn-whatsapp"
+               target="_blank"
+               rel="noopener noreferrer">
+              <div class="quick-btn-icon">💬</div>
+              <div class="quick-btn-text">
+                <strong>Chat on WhatsApp</strong>
+                <span>Fastest · Usually within hours</span>
+              </div>
+            </a>
 
-<h3>Available Timings</h3>
+            <a href="tel:+918700290436" class="quick-btn qbtn-phone">
+              <div class="quick-btn-icon">📞</div>
+              <div class="quick-btn-text">
+                <strong>Call 8700290436</strong>
+                <span>Mon–Sun · 10 AM – 8 PM IST</span>
+              </div>
+            </a>
 
-<p>Monday – Sunday</p>
+            <a href="mailto:ramvasgurukulofficial@gmail.com" class="quick-btn qbtn-email">
+              <div class="quick-btn-icon">✉️</div>
+              <div class="quick-btn-text">
+                <strong>Send an Email</strong>
+                <span>ramvasgurukulofficial@gmail.com</span>
+              </div>
+            </a>
 
-<p>10:00 AM – 8:00 PM</p>
+            <div style="border-top:1px solid var(--gray-200);margin:20px 0;"></div>
 
-<br><br>
+            <p style="text-align:center;font-size:14px;color:var(--text-muted);margin-bottom:14px;">
+              Want to experience a class for free first?
+            </p>
+            <a href="demo.html" class="btn btn-full btn-lg" style="justify-content:center;">
+              📌 Book Free Demo Class
+            </a>
 
-<h3>Book a Free Demo Class</h3>
+            <!-- Social quick links -->
+            <div style="margin-top:22px;">
+              <p style="font-size:12px;font-weight:700;color:var(--text-muted);margin-bottom:12px;text-transform:uppercase;letter-spacing:1px;">
+                Also Find Us On
+              </p>
+              <div class="sidebar-social-grid">
+                <a href="https://www.youtube.com/@RAMVASGURUKULOFFICIAL"
+                   class="sidebar-social-btn ss-yt"
+                   target="_blank" rel="noopener noreferrer">
+                  ▶ YouTube
+                </a>
+                <a href="https://www.instagram.com/ramvasgurukulofficial"
+                   class="sidebar-social-btn ss-ig"
+                   target="_blank" rel="noopener noreferrer">
+                  📸 Instagram
+                </a>
+                <a href="https://t.me/Ramvasgurukulofficial"
+                   class="sidebar-social-btn ss-tg"
+                   target="_blank" rel="noopener noreferrer">
+                  ✈ Telegram
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61584875817127"
+                   class="sidebar-social-btn ss-fb"
+                   target="_blank" rel="noopener noreferrer">
+                  f Facebook
+                </a>
+              </div>
+            </div>
 
-<p>
-Interested students can request a free demo class to experience our teaching approach and understand how the classes are conducted.
-</p>
+          </div>
+        </div>
 
-<br>
+      </div>
 
-<a href="demo.html"
-class="btn btn-secondary">
+    </div>
 
-Book Free Demo
+    <!-- ═══ CTA ═══ -->
+    <section class="cta-section" aria-labelledby="contact-cta-heading">
+      <div class="container">
+        <h2 id="contact-cta-heading">Ready to Get <span>Started?</span></h2>
+        <p>Book a completely free demo class — no fees, no pressure. Experience the teaching style and decide for yourself.</p>
+        <div class="cta-actions">
+          <a href="demo.html" class="btn btn-lg">📌 Book Free Demo Now</a>
+          <a href="https://wa.me/918700290436?text=Hi%20Shivam%20Sir!%20I%20want%20to%20enquire%20about%20Ramvas%20Gurukul."
+             class="btn btn-secondary btn-lg"
+             target="_blank" rel="noopener noreferrer">
+            💬 WhatsApp Us
+          </a>
+        </div>
+      </div>
+    </section>
 
-</a>
+  </main>
 
-</section>
+  <!-- ═══ FOOTER ═══ -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="logo-name">Ramvas Gurukul</span>
+        <span class="logo-tagline">Concept-Based Learning</span>
+        <p>Online coaching for Class 9 &amp; 10 students. Live Zoom classes, NCERT solutions, weekly tests, and personal guidance by Shivam Sir.</p>
+        <div class="footer-social">
+          <a href="https://www.youtube.com/@RAMVASGURUKULOFFICIAL" class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="YouTube">▶</a>
+          <a href="https://www.instagram.com/ramvasgurukulofficial" class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">📸</a>
+          <a href="https://www.facebook.com/profile.php?id=61584875817127" class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook">f</a>
+          <a href="https://t.me/Ramvasgurukulofficial" class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="Telegram">✈</a>
+          <a href="https://www.linkedin.com/in/shivam-mishra-a901b33b5" class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">in</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Shivam Sir</a></li>
+          <li><a href="courses.html">All Courses</a></li>
+          <li><a href="online-classes.html">Online Classes</a></li>
+          <li><a href="study-material.html">Free Study Material</a></li>
+          <li><a href="blog.html">Blog &amp; Articles</a></li>
+          <li><a href="demo.html">Book Free Demo</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <ul>
+          <li><a href="tel:+918700290436">📞 +91 8700290436</a></li>
+          <li><a href="mailto:ramvasgurukulofficial@gmail.com">✉ ramvasgurukulofficial@gmail.com</a></li>
+          <li><a href="https://wa.me/918700290436" target="_blank" rel="noopener noreferrer">💬 WhatsApp Chat</a></li>
+        </ul>
+        <h4 style="margin-top:28px;">Class Timings</h4>
+        <ul>
+          <li><span style="color:rgba(255,255,255,0.55);font-size:14px;">Monday – Sunday</span></li>
+          <li><span style="color:rgba(255,255,255,0.55);font-size:14px;">10:00 AM – 8:00 PM IST</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 <strong>Ramvas Gurukul</strong> · All Rights Reserved · <a href="https://www.ramvasgurukul.com">ramvasgurukul.com</a></p>
+      <p>Made with ❤️ for students across India</p>
+    </div>
+  </footer>
 
-<footer>
+  <a href="https://wa.me/918700290436?text=Hi%20Shivam%20Sir!%20I%20want%20to%20contact%20Ramvas%20Gurukul."
+     class="whatsapp-float"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Chat with Ramvas Gurukul on WhatsApp">
+    💬 WhatsApp Us
+  </a>
 
-<p><strong>Ramvas Gurukul</strong></p>
+  <script>
+    (function () {
 
-<p>Concept-Based Learning | Live Zoom Classes</p>
+      /* ── Hamburger ── */
+      var hbtn = document.getElementById('hamburger');
+      var hnav = document.getElementById('mobileNav');
+      hbtn.addEventListener('click', function () {
+        var open = hnav.classList.toggle('open');
+        hbtn.classList.toggle('open', open);
+        hbtn.setAttribute('aria-expanded', String(open));
+      });
+      document.addEventListener('click', function (e) {
+        if (!hbtn.contains(e.target) && !hnav.contains(e.target)) {
+          hnav.classList.remove('open');
+          hbtn.classList.remove('open');
+          hbtn.setAttribute('aria-expanded', 'false');
+        }
+      });
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') {
+          hnav.classList.remove('open');
+          hbtn.classList.remove('open');
+          hbtn.setAttribute('aria-expanded', 'false');
+        }
+      });
 
-<p>📞 8700290436</p>
+      /* ── Live availability indicator (IST) ── */
+      (function () {
+        var now   = new Date();
+        var utc   = now.getTime() + (now.getTimezoneOffset() * 60000);
+        var ist   = new Date(utc + (5.5 * 3600000));
+        var total = ist.getHours() * 60 + ist.getMinutes();
+        var isOpen = total >= 600 && total < 1200; /* 10:00–20:00 */
 
-<p>© 2025 Ramvas Gurukul | All Rights Reserved</p>
+        var badge  = document.getElementById('openBadge');
+        var textEl = document.getElementById('openText');
 
-</footer>
+        if (isOpen) {
+          badge.className  = 'open-badge is-open';
+          textEl.textContent = 'We are available right now';
+        } else {
+          badge.className  = 'open-badge is-closed';
+          textEl.textContent = 'Currently closed · Opens at 10 AM IST';
+        }
+      })();
 
-<a href="https://wa.me/918700290436"
-class="whatsapp-float"
-target="_blank">
+      /* ── Scroll animations ── */
+      var els = document.querySelectorAll('.contact-method-card, .quick-btn');
+      if ('IntersectionObserver' in window) {
+        var observer = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              entry.target.style.animation = 'fadeUp 0.45s ease forwards';
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.10 });
+        els.forEach(function (el, i) {
+          el.style.opacity = '0';
+          el.style.animationDelay = i * 60 + 'ms';
+          observer.observe(el);
+        });
+      }
 
-Chat on WhatsApp
+      /* ── Header scroll effect ── */
+      var header = document.querySelector('header');
+      window.addEventListener('scroll', function () {
+        header.style.background = window.scrollY > 40
+          ? 'rgba(7,25,46,0.98)'
+          : 'rgba(15,42,78,0.97)';
+      }, { passive: true });
 
-</a>
+    })();
+  </script>
 
 </body>
 </html>

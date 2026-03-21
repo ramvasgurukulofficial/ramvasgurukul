@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- ═══════════════════════════════════════════════
+       RAMVAS GURUKUL — SITEMAP
+       Website: https://www.ramvasgurukul.com
+       Last Updated: 2026-03-21
+  ════════════════════════════════════════════════ -->
+
+  <!-- Homepage — highest priority, checked weekly -->
+  <url>
+    <loc>https://www.ramvasgurukul.com/</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Courses page — very high priority, key conversion page -->
+  <url>
+    <loc>https://www.ramvasgurukul.com/courses.html</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Online Classes page — very high priority -->
+  <url>
+    <loc>https://www.ramvasgurukul.com/online-classes.html</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Book Free Demo page — very high priority, conversion page -->
+  <url>
+    <loc>https://www.ramvasgurukul.com/demo.html</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Study Material page — high priority, updated frequently -->
+  <url>
+    <loc>https://www.ramvasgurukul.com/study-material.html</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Blog listing page — high priority, updated frequently -->
+  <url>
+    <loc>https://www.ramvasgurukul.com/blog.html</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- About page -->
+  <url>
+    <loc>https://www.ramvasgurukul.com/about.html</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contact page -->
+  <url>
+    <loc>https://www.ramvasgurukul.com/contact.html</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Social Media page -->
+  <url>
+    <loc>https://www.ramvasgurukul.com/social-media.html</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- ═══ BLOG ARTICLES ═══
+       Blog posts are evergreen and change rarely once published.
+       changefreq: yearly is correct — Google still crawls based on priority.
+  ════════════════════════════════════════════════ -->
+
+  <!-- Exam Prep articles — highest priority blog posts -->
+  <url>
+    <loc>https://www.ramvasgurukul.com/blog/score-95-class-10.html</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.ramvasgurukul.com/blog/attempt-board-paper.html</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.ramvasgurukul.com/blog/secrets-of-toppers.html</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Books articles -->
+  <url>
+    <loc>https://www.ramvasgurukul.com/blog/best-books-class-9.html</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.ramvasgurukul.com/blog/best-books-class-10.html</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Study Habits articles -->
+  <url>
+    <loc>https://www.ramvasgurukul.com/blog/daily-study-routine.html</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.ramvasgurukul.com/blog/cover-syllabus-revision.html</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.ramvasgurukul.com/blog/memorize-fast.html</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.ramvasgurukul.com/blog/study-long-hours.html</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.ramvasgurukul.com/blog/make-study-notes.html</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.ramvasgurukul.com/blog/discipline-and-focus.html</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.ramvasgurukul.com/blog/utilize-vacation.html</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Career articles -->
+  <url>
+    <loc>https://www.ramvasgurukul.com/blog/what-to-choose-after-class-10.html</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.ramvasgurukul.com/blog/govt-jobs-after-class-10.html</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.ramvasgurukul.com/blog/govt-jobs-after-class-12.html</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Coding articles -->
+  <url>
+    <loc>https://www.ramvasgurukul.com/blog/start-coding-journey.html</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Wellness articles -->
+  <url>
+    <loc>https://www.ramvasgurukul.com/blog/overcome-anxiety.html</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.ramvasgurukul.com/blog/overcome-phone-addiction.html</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.ramvasgurukul.com/blog/improve-handwriting.html</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>

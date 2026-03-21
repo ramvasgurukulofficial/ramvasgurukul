@@ -1,177 +1,950 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ═══ PRIMARY SEO ═══ -->
+  <title>Book Free Demo Class | Online Coaching Class 9 & 10 | Ramvas Gurukul</title>
+  <meta name="description" content="Book a 100% FREE live Zoom demo class at Ramvas Gurukul. Experience Shivam Sir's concept-based coaching for Class 9 & 10 — no fees, no commitment. WhatsApp response within hours!">
+  <meta name="keywords" content="free demo class online coaching, book free demo class 9 10, free trial online tuition class 9 10, free zoom class coaching, Ramvas Gurukul demo class, free online coaching class 9, free online coaching class 10, free demo class CBSE, book free demo coaching, free trial class India">
+  <meta name="author" content="Shivam Mishra – Ramvas Gurukul">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <link rel="canonical" href="https://www.ramvasgurukul.com/demo.html">
 
-<title>Book Free Demo | Ramvas Gurukul</title>
+  <!-- ═══ OPEN GRAPH ═══ -->
+  <meta property="og:type"         content="website">
+  <meta property="og:url"          content="https://www.ramvasgurukul.com/demo.html">
+  <meta property="og:title"        content="Book Free Demo Class | Ramvas Gurukul">
+  <meta property="og:description"  content="Experience live Zoom coaching for Class 9 & 10 — completely free, no commitment. Book your demo now!">
+  <meta property="og:image"        content="https://www.ramvasgurukul.com/images/og-image.jpg">
+  <meta property="og:image:width"  content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name"    content="Ramvas Gurukul">
+  <meta property="og:locale"       content="en_IN">
 
-<meta name="description" content="Book a free demo class at Ramvas Gurukul to experience our teaching approach and live Zoom classes.">
+  <!-- ═══ TWITTER CARD ═══ -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="Book Free Demo Class | Ramvas Gurukul">
+  <meta name="twitter:description" content="Free live Zoom coaching class for Class 9 & 10. No fees, no commitment. Book yours now!">
+  <meta name="twitter:image"       content="https://www.ramvasgurukul.com/images/og-image.jpg">
 
-<link rel="stylesheet" href="style.css">
+  <!-- ═══ GEO / LOCAL SEO ═══ -->
+  <meta name="geo.region"    content="IN-DL">
+  <meta name="geo.placename" content="Delhi, India">
+  <meta name="theme-color"   content="#0f2a4e">
 
-<style>
+  <!-- ═══ SCHEMA.ORG ═══ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Event",
+        "@id": "https://www.ramvasgurukul.com/demo.html#event",
+        "name": "Free Demo Class – Ramvas Gurukul Online Coaching",
+        "description": "A completely free live Zoom demo class for Class 9 & 10 students to experience Shivam Sir's concept-based teaching with no fees or commitment.",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "organizer": {
+          "@type": "EducationalOrganization",
+          "name": "Ramvas Gurukul",
+          "url": "https://www.ramvasgurukul.com",
+          "telephone": "+918700290436"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock",
+          "url": "https://www.ramvasgurukul.com/demo.html",
+          "description": "Completely free demo class — no fees, no commitment required"
+        },
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://zoom.us"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home",           "item": "https://www.ramvasgurukul.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Book Free Demo", "item": "https://www.ramvasgurukul.com/demo.html" }
+        ]
+      }
+    ]
+  }
+  </script>
 
-.demo-form{
-max-width:500px;
-margin:auto;
-}
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-.demo-form label{
-display:block;
-margin-top:15px;
-font-weight:600;
-}
+  <style>
+    /* ── Demo page specific styles ── */
 
-.demo-form select{
-width:100%;
-padding:10px;
-margin-top:5px;
-border-radius:6px;
-border:1px solid #ccc;
-}
+    .demo-page-wrap {
+      display: grid;
+      grid-template-columns: 1fr 430px;
+      gap: 52px;
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 64px 32px 72px;
+      align-items: start;
+    }
 
-.subject-box{
-margin-top:10px;
-}
+    /* ── LEFT: Info panel ── */
+    .demo-info-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      background: rgba(16,185,129,0.12);
+      border: 1px solid rgba(16,185,129,0.30);
+      color: #059669;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 6px 16px;
+      border-radius: var(--radius-full);
+      margin-bottom: 18px;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+    }
 
-.subject-box label{
-display:block;
-margin-bottom:5px;
-font-weight:normal;
-}
+    .demo-info h1 {
+      font-family: var(--font-display);
+      font-size: clamp(26px, 3.5vw, 42px);
+      font-weight: 800;
+      color: var(--navy);
+      line-height: 1.2;
+      margin-bottom: 16px;
+      letter-spacing: -0.5px;
+    }
+    .demo-info h1 span { color: var(--gold); }
 
-</style>
+    .demo-info > p {
+      font-size: 16.5px;
+      color: var(--text-muted);
+      line-height: 1.8;
+      margin-bottom: 36px;
+      max-width: 500px;
+    }
 
+    /* Benefits list */
+    .demo-benefits { list-style: none; padding: 0; margin-bottom: 36px; }
+    .demo-benefits li {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      padding: 16px 0;
+      border-bottom: 1px solid var(--gray-200);
+    }
+    .demo-benefits li:last-child { border-bottom: none; }
+
+    .benefit-icon {
+      width: 42px;
+      height: 42px;
+      border-radius: 12px;
+      background: var(--gold-light);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      flex-shrink: 0;
+    }
+    .benefit-icon.blue   { background: var(--blue-tint); }
+    .benefit-icon.green  { background: var(--green-tint); }
+    .benefit-icon.purple { background: rgba(139,92,246,0.10); }
+
+    .demo-benefits strong {
+      display: block;
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 3px;
+    }
+    .demo-benefits span { font-size: 13.5px; color: var(--text-muted); line-height: 1.5; }
+
+    /* Tutor mini card */
+    .tutor-mini {
+      background: var(--off-white);
+      border-radius: var(--radius-lg);
+      padding: 20px 22px;
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      border: 1px solid var(--gray-200);
+      transition: var(--transition);
+      margin-bottom: 28px;
+    }
+    .tutor-mini:hover { box-shadow: var(--shadow-md); border-color: rgba(245,158,11,0.3); }
+    .tutor-mini img {
+      width: 66px;
+      height: 66px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid var(--gold);
+      flex-shrink: 0;
+    }
+    .tutor-mini-info strong {
+      display: block;
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 3px;
+    }
+    .tutor-mini-info span { font-size: 13px; color: var(--text-muted); }
+    .tutor-stars {
+      color: var(--gold);
+      font-size: 13px;
+      margin-top: 5px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .tutor-stars span { font-size: 12px; color: var(--text-muted); font-weight: 400; }
+
+    /* What happens next */
+    .next-steps {
+      background: var(--off-white);
+      border-radius: var(--radius-lg);
+      padding: 26px 28px;
+      border: 1px solid var(--gray-200);
+      margin-bottom: 24px;
+    }
+    .next-steps h3 {
+      font-family: var(--font-display);
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 18px;
+    }
+    .next-step-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      margin-bottom: 14px;
+      font-size: 14.5px;
+      color: var(--gray-600);
+      line-height: 1.65;
+    }
+    .next-step-item:last-child { margin-bottom: 0; }
+    .step-num-sm {
+      width: 28px;
+      height: 28px;
+      background: var(--navy);
+      color: var(--white);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-display);
+      font-size: 12px;
+      font-weight: 800;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+    .step-num-sm.gold   { background: var(--gold); color: var(--navy); }
+    .step-num-sm.blue   { background: var(--blue); }
+    .step-num-sm.green  { background: var(--green); }
+
+    /* Alt contact box */
+    .alt-contact {
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      padding: 22px 24px;
+      border: 1px solid var(--gray-200);
+      text-align: center;
+    }
+    .alt-contact p { font-size: 14px; color: var(--text-muted); margin-bottom: 14px; }
+    .alt-contact-btns { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+
+    /* ── RIGHT: Form card ── */
+    .demo-form-card {
+      background: var(--white);
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow-lg);
+      border: 1px solid var(--gray-200);
+      overflow: hidden;
+      position: sticky;
+      top: 88px;
+    }
+
+    .demo-form-header {
+      background: linear-gradient(140deg, var(--navy), var(--navy-mid));
+      color: var(--white);
+      padding: 26px 30px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .demo-form-header::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+                        linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+      background-size: 30px 30px;
+    }
+    .demo-form-header .free-tag {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--navy);
+      font-size: 11px;
+      font-weight: 800;
+      padding: 4px 16px;
+      border-radius: var(--radius-full);
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      margin-bottom: 12px;
+      position: relative;
+    }
+    .demo-form-header h2 {
+      font-family: var(--font-display);
+      font-size: 21px;
+      font-weight: 800;
+      margin-bottom: 5px;
+      position: relative;
+    }
+    .demo-form-header p {
+      font-size: 13px;
+      color: rgba(255,255,255,0.70);
+      position: relative;
+    }
+
+    .demo-form-body { padding: 28px 30px; }
+
+    /* Progress bar */
+    .form-steps {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 26px;
+    }
+    .form-step-item {
+      flex: 1;
+      height: 4px;
+      border-radius: 2px;
+      background: var(--gray-200);
+      transition: background 0.3s;
+    }
+    .form-step-item.done   { background: var(--green); }
+    .form-step-item.active { background: var(--gold); }
+
+    /* Form labels */
+    .form-group { margin-bottom: 18px; }
+    .form-group label {
+      display: block;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 7px;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+    }
+    .form-group label .req { color: var(--red); margin-left: 2px; }
+
+    /* Inputs & selects */
+    .form-group select,
+    .form-group input[type="text"],
+    .form-group input[type="tel"] {
+      width: 100%;
+      padding: 12px 16px;
+      border: 1.5px solid var(--gray-200);
+      border-radius: 10px;
+      font-family: var(--font-main);
+      font-size: 14.5px;
+      color: var(--text);
+      background: var(--white);
+      transition: border-color 0.2s, box-shadow 0.2s;
+      outline: none;
+      appearance: none;
+      -webkit-appearance: none;
+    }
+    .form-group select {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236b7280' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 14px center;
+      padding-right: 40px;
+    }
+    .form-group select:focus,
+    .form-group input:focus {
+      border-color: var(--blue);
+      box-shadow: 0 0 0 4px rgba(37,99,235,0.10);
+    }
+    .form-group select.filled,
+    .form-group input.filled {
+      border-color: var(--green);
+      background-color: rgba(16,185,129,0.02);
+    }
+
+    /* Subject checkboxes */
+    .subject-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+    .subject-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 12px;
+      border: 1.5px solid var(--gray-200);
+      border-radius: 9px;
+      cursor: pointer;
+      transition: var(--transition);
+      font-size: 13.5px;
+      font-weight: 500;
+      color: var(--text);
+      user-select: none;
+    }
+    .subject-item input[type="checkbox"] {
+      width: 15px;
+      height: 15px;
+      accent-color: var(--navy);
+      flex-shrink: 0;
+      cursor: pointer;
+    }
+    .subject-item:hover { border-color: var(--blue); background: var(--blue-tint); }
+    .subject-item:has(input:checked) {
+      border-color: var(--navy);
+      background: rgba(15,42,78,0.06);
+      color: var(--navy);
+      font-weight: 700;
+    }
+
+    /* Error state */
+    .field-error {
+      font-size: 12px;
+      color: var(--red);
+      margin-top: 5px;
+      display: none;
+      font-weight: 600;
+    }
+    .form-group.has-error select,
+    .form-group.has-error input { border-color: var(--red) !important; }
+    .form-group.has-error .field-error { display: block; }
+
+    /* Submit button */
+    .demo-submit-btn {
+      width: 100%;
+      padding: 16px;
+      background: var(--gold);
+      color: var(--navy);
+      font-family: var(--font-display);
+      font-size: 15.5px;
+      font-weight: 800;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: var(--transition);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 8px;
+      letter-spacing: 0.2px;
+      position: relative;
+      overflow: hidden;
+    }
+    .demo-submit-btn::before {
+      content: '';
+      position: absolute;
+      top: 0; left: -100%;
+      width: 60%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.25), transparent);
+      transition: left 0.4s ease;
+    }
+    .demo-submit-btn:hover::before { left: 150%; }
+    .demo-submit-btn:hover {
+      background: var(--gold-hover);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-gold);
+    }
+    .demo-submit-btn:active { transform: translateY(0); }
+
+    /* Trust note */
+    .form-trust {
+      text-align: center;
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+    }
+
+    /* Success toast */
+    .toast {
+      display: none;
+      position: fixed;
+      bottom: 96px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--green);
+      color: var(--white);
+      padding: 14px 30px;
+      border-radius: var(--radius-full);
+      font-size: 15px;
+      font-weight: 700;
+      box-shadow: 0 8px 28px rgba(16,185,129,0.45);
+      z-index: 9999;
+      white-space: nowrap;
+      animation: toastIn 0.3s ease;
+    }
+    @keyframes toastIn {
+      from { opacity: 0; transform: translate(-50%, 16px); }
+      to   { opacity: 1; transform: translate(-50%, 0); }
+    }
+
+    /* Responsive */
+    @media (max-width: 920px) {
+      .demo-page-wrap {
+        grid-template-columns: 1fr;
+        padding: 44px 20px 56px;
+        gap: 36px;
+      }
+      .demo-form-card { position: static; }
+    }
+  </style>
 </head>
 
 <body>
 
-<header>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
 
-<div class="logo">
-<img src="images/logo.png" alt="Ramvas Gurukul Logo">
-</div>
+  <!-- ═══ HEADER ═══ -->
+  <header>
+    <div class="header-inner">
+      <div class="logo">
+        <a href="index.html" aria-label="Ramvas Gurukul Home">
+          <img src="images/logo.png" alt="Ramvas Gurukul Logo" width="46" height="46"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <div class="logo-icon-placeholder" style="display:none;">RG</div>
+          <div class="logo-text">
+            <span class="logo-name">Ramvas Gurukul</span>
+            <span class="logo-tagline">Concept-Based Learning</span>
+          </div>
+        </a>
+      </div>
+      <nav aria-label="Primary Navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="courses.html">Courses</a>
+        <a href="online-classes.html">Online Classes</a>
+        <a href="study-material.html">Study Material</a>
+        <a href="blog.html">Blog</a>
+        <a href="social-media.html">Social</a>
+        <a href="contact.html">Contact</a>
+        <a href="demo.html" class="nav-cta active">📌 Free Demo</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-nav" id="mobileNav" role="navigation" aria-label="Mobile Navigation">
+      <a href="index.html">🏠 Home</a>
+      <a href="about.html">👨‍🏫 About Shivam Sir</a>
+      <a href="courses.html">📚 Courses</a>
+      <a href="online-classes.html">💻 Online Classes</a>
+      <a href="study-material.html">📄 Study Material</a>
+      <a href="blog.html">✏️ Blog</a>
+      <a href="social-media.html">📱 Social Media</a>
+      <a href="contact.html">📞 Contact</a>
+      <a href="demo.html">📌 Book Free Demo Class</a>
+    </div>
+  </header>
 
-<nav>
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="courses.html">Courses</a>
-<a href="online-classes.html">Online Classes</a>
-<a href="study-material.html">Study Material</a>
-<a href="blog.html">Blog</a>
-<a href="demo.html">Book Free Demo</a>
-<a href="social-media.html">Social Media</a>
-<a href="contact.html">Contact</a>
-</nav>
+  <!-- ═══ BREADCRUMB ═══ -->
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <div class="breadcrumb-inner">
+      <a href="index.html">Home</a>
+      <span>›</span>
+      <span aria-current="page">Book Free Demo</span>
+    </div>
+  </nav>
 
-</header>
+  <main id="main-content">
+    <div class="demo-page-wrap">
 
-<section class="page-section">
+      <!-- ═══ LEFT: INFO PANEL ═══ -->
+      <div class="demo-info">
 
-<h2>Book a Free Demo Class</h2>
+        <div class="demo-info-badge">✓ 100% Free · No Commitment · No Hidden Fees</div>
 
-<p>
-Interested students can request a free demo class to experience our teaching approach and understand how the classes are conducted.
-</p>
+        <h1>Book Your <span>Free Demo Class</span> Today</h1>
+        <p>
+          Experience Shivam Sir's live Zoom teaching first-hand. Ask your doubts, see the
+          class structure, and decide if it's the right fit — completely free with zero obligation.
+        </p>
 
-<br>
+        <ul class="demo-benefits" aria-label="What you get in the free demo class">
+          <li>
+            <div class="benefit-icon">📺</div>
+            <div>
+              <strong>Live Interactive Zoom Class</strong>
+              <span>Join a real live class, not a recorded video. Interact directly with Shivam Sir in real time.</span>
+            </div>
+          </li>
+          <li>
+            <div class="benefit-icon blue">🙋</div>
+            <div>
+              <strong>Ask Any Question Freely</strong>
+              <span>Bring all your doubts and questions — the demo is fully interactive and judgement-free.</span>
+            </div>
+          </li>
+          <li>
+            <div class="benefit-icon green">💰</div>
+            <div>
+              <strong>Absolutely Zero Cost</strong>
+              <span>No fees. No credit card. No commitment of any kind. 100% free, always.</span>
+            </div>
+          </li>
+          <li>
+            <div class="benefit-icon">⚡</div>
+            <div>
+              <strong>Fast WhatsApp Response</strong>
+              <span>Shivam Sir personally replies on WhatsApp within a few hours to schedule your slot.</span>
+            </div>
+          </li>
+          <li>
+            <div class="benefit-icon purple">📱</div>
+            <div>
+              <strong>Join from Any Device</strong>
+              <span>Phone, tablet, or laptop — all you need is the free Zoom app and an internet connection.</span>
+            </div>
+          </li>
+        </ul>
 
-<div class="demo-form">
+        <!-- Tutor mini card -->
+        <div class="tutor-mini">
+          <img src="images/shivam.jpg"
+               alt="Shivam Sir – Online Tutor and Founder of Ramvas Gurukul"
+               width="66" height="66"
+               onerror="this.style.display='none'">
+          <div class="tutor-mini-info">
+            <strong>Shivam Sir — Your Tutor</strong>
+            <span>B.Tech CSE · 7+ Years Teaching Experience</span>
+            <div class="tutor-stars">
+              ★★★★★
+              <span>Trusted by 500+ students across India</span>
+            </div>
+          </div>
+        </div>
 
-<label>Select Class</label>
+        <!-- What happens next -->
+        <div class="next-steps">
+          <h3>🗓️ What Happens After You Submit?</h3>
+          <div class="next-step-item">
+            <div class="step-num-sm gold">1</div>
+            <div>Shivam Sir receives your request on WhatsApp instantly — within seconds of submitting.</div>
+          </div>
+          <div class="next-step-item">
+            <div class="step-num-sm blue">2</div>
+            <div>You get a personal WhatsApp reply within a few hours to confirm your preferred demo time slot.</div>
+          </div>
+          <div class="next-step-item">
+            <div class="step-num-sm">3</div>
+            <div>A Zoom meeting link is shared with you before your scheduled class time — simple to join.</div>
+          </div>
+          <div class="next-step-item">
+            <div class="step-num-sm green">4</div>
+            <div>Join the live class, ask any questions, experience the teaching style — and then decide. No pressure.</div>
+          </div>
+        </div>
 
-<select id="class">
+        <!-- Alt contact -->
+        <div class="alt-contact">
+          <p>Prefer to reach out directly instead of filling the form?</p>
+          <div class="alt-contact-btns">
+            <a href="https://wa.me/918700290436?text=Hello%20Shivam%20Sir!%20I%20would%20like%20to%20book%20a%20free%20demo%20class%20at%20Ramvas%20Gurukul."
+               class="btn"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="Book demo directly on WhatsApp">
+              💬 WhatsApp Directly
+            </a>
+            <a href="tel:+918700290436" class="btn btn-outline">📞 Call Now</a>
+          </div>
+        </div>
 
-<option value="">Select Class</option>
-<option>Class 9</option>
-<option>Class 10</option>
-<option>Class 11</option>
-<option>Class 12</option>
+      </div>
 
-</select>
+      <!-- ═══ RIGHT: FORM CARD ═══ -->
+      <div class="demo-form-card" role="region" aria-label="Book your free demo class form">
 
-<label>Select Board</label>
+        <div class="demo-form-header">
+          <span class="free-tag">✓ 100% Free</span>
+          <h2>Book Your Free Demo Class</h2>
+          <p>Fill in your details — we'll reply on WhatsApp</p>
+        </div>
 
-<select id="board">
+        <div class="demo-form-body">
 
-<option value="">Select Board</option>
-<option>CBSE</option>
-<option>ICSE</option>
-<option>State Board</option>
+          <!-- Progress bar -->
+          <div class="form-steps" aria-label="Form progress" aria-hidden="true">
+            <div class="form-step-item active" id="step1"></div>
+            <div class="form-step-item"        id="step2"></div>
+            <div class="form-step-item"        id="step3"></div>
+          </div>
 
-</select>
+          <!-- Class -->
+          <div class="form-group" id="group-class">
+            <label for="studentClass">Your Class <span class="req">*</span></label>
+            <select id="studentClass" aria-required="true" aria-describedby="err-class">
+              <option value="">— Select Your Class —</option>
+              <option value="Class 9">Class 9</option>
+              <option value="Class 10">Class 10</option>
+              <option value="Class 11">Class 11</option>
+              <option value="Class 12">Class 12</option>
+            </select>
+            <p class="field-error" id="err-class" role="alert">Please select your class.</p>
+          </div>
 
-<label>Select Subject(s)</label>
+          <!-- Board -->
+          <div class="form-group" id="group-board">
+            <label for="studentBoard">Your Board <span class="req">*</span></label>
+            <select id="studentBoard" aria-required="true" aria-describedby="err-board">
+              <option value="">— Select Your Board —</option>
+              <option value="CBSE">CBSE</option>
+              <option value="ICSE">ICSE</option>
+              <option value="State Board">State Board</option>
+            </select>
+            <p class="field-error" id="err-board" role="alert">Please select your board.</p>
+          </div>
 
-<div class="subject-box">
+          <!-- Subjects -->
+          <div class="form-group">
+            <label>Select Subject(s) <span style="font-weight:400;color:var(--text-muted);font-size:10px;text-transform:none;">(optional)</span></label>
+            <div class="subject-grid" id="subjectGrid">
+              <label class="subject-item"><input type="checkbox" value="Mathematics"> Mathematics</label>
+              <label class="subject-item"><input type="checkbox" value="Science"> Science</label>
+              <label class="subject-item"><input type="checkbox" value="Social Science"> Social Science</label>
+              <label class="subject-item"><input type="checkbox" value="English"> English</label>
+              <label class="subject-item"><input type="checkbox" value="Hindi"> Hindi</label>
+              <label class="subject-item"><input type="checkbox" value="Physics"> Physics</label>
+              <label class="subject-item"><input type="checkbox" value="Chemistry"> Chemistry</label>
+              <label class="subject-item"><input type="checkbox" value="Programming"> Programming</label>
+            </div>
+          </div>
 
-<label><input type="checkbox" value="Mathematics"> Mathematics</label> <label><input type="checkbox" value="Science"> Science</label> <label><input type="checkbox" value="Social Science"> Social Science</label> <label><input type="checkbox" value="English"> English</label> <label><input type="checkbox" value="Hindi"> Hindi</label> <label><input type="checkbox" value="Programming"> Programming</label>
+          <!-- Name -->
+          <div class="form-group">
+            <label for="studentName">Your Name <span style="font-weight:400;color:var(--text-muted);font-size:10px;text-transform:none;">(optional)</span></label>
+            <input type="text" id="studentName" placeholder="e.g. Aryan Singh" autocomplete="name">
+          </div>
 
-</div>
+          <!-- Submit -->
+          <button class="demo-submit-btn" id="submitBtn" type="button" aria-label="Send demo booking request via WhatsApp">
+            <span>📲</span> Send Request via WhatsApp
+          </button>
 
-<br>
+          <p class="form-trust">
+            🔒 Sent directly to Shivam Sir's WhatsApp — 100% private
+          </p>
 
-<button class="btn" onclick="sendMessage()">
+        </div>
+      </div>
 
-Send Demo Request on WhatsApp
+    </div>
 
-</button>
+    <!-- ═══ BOTTOM CTA ═══ -->
+    <section class="cta-section" aria-labelledby="demo-cta-bottom">
+      <div class="container">
+        <h2 id="demo-cta-bottom">Still Have <span>Questions?</span></h2>
+        <p>
+          Available Monday to Sunday, 10 AM – 8 PM IST.
+          Reach out any time — we are happy to help you get started.
+        </p>
+        <div class="cta-actions">
+          <a href="https://wa.me/918700290436?text=Hi%20Shivam%20Sir!%20I%20have%20a%20question%20about%20Ramvas%20Gurukul."
+             class="btn btn-lg"
+             target="_blank"
+             rel="noopener noreferrer">
+            💬 Chat on WhatsApp
+          </a>
+          <a href="contact.html" class="btn btn-secondary btn-lg">📞 View Contact Details</a>
+        </div>
+      </div>
+    </section>
 
-</div>
+  </main>
 
-</section>
+  <!-- Success Toast -->
+  <div class="toast" id="successToast" role="status" aria-live="polite">✅ Opening WhatsApp with your request!</div>
 
-<footer>
+  <!-- ═══ FOOTER ═══ -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="logo-name">Ramvas Gurukul</span>
+        <span class="logo-tagline">Concept-Based Learning</span>
+        <p>Online coaching for Class 9 &amp; 10 students. Live Zoom classes, NCERT solutions, weekly tests, and personal guidance by Shivam Sir.</p>
+        <div class="footer-social">
+          <a href="https://www.youtube.com/@RAMVASGURUKULOFFICIAL" class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="YouTube">▶</a>
+          <a href="https://www.instagram.com/ramvasgurukulofficial" class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">📸</a>
+          <a href="https://www.facebook.com/profile.php?id=61584875817127" class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook">f</a>
+          <a href="https://t.me/Ramvasgurukulofficial" class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="Telegram">✈</a>
+          <a href="https://www.linkedin.com/in/shivam-mishra-a901b33b5" class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">in</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Shivam Sir</a></li>
+          <li><a href="courses.html">All Courses</a></li>
+          <li><a href="online-classes.html">Online Classes</a></li>
+          <li><a href="study-material.html">Free Study Material</a></li>
+          <li><a href="blog.html">Blog &amp; Articles</a></li>
+          <li><a href="demo.html">Book Free Demo</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <ul>
+          <li><a href="tel:+918700290436">📞 +91 8700290436</a></li>
+          <li><a href="mailto:ramvasgurukulofficial@gmail.com">✉ ramvasgurukulofficial@gmail.com</a></li>
+          <li><a href="https://wa.me/918700290436" target="_blank" rel="noopener noreferrer">💬 WhatsApp Chat</a></li>
+        </ul>
+        <h4 style="margin-top:28px;">Class Timings</h4>
+        <ul>
+          <li><span style="color:rgba(255,255,255,0.55);font-size:14px;">Monday – Sunday</span></li>
+          <li><span style="color:rgba(255,255,255,0.55);font-size:14px;">10:00 AM – 8:00 PM IST</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 <strong>Ramvas Gurukul</strong> · All Rights Reserved · <a href="https://www.ramvasgurukul.com">ramvasgurukul.com</a></p>
+      <p>Made with ❤️ for students across India</p>
+    </div>
+  </footer>
 
-<p><strong>Ramvas Gurukul</strong></p>
+  <a href="https://wa.me/918700290436?text=Hi%20Shivam%20Sir!%20I%20want%20to%20book%20a%20free%20demo%20class."
+     class="whatsapp-float"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Chat with Ramvas Gurukul on WhatsApp">
+    💬 WhatsApp Us
+  </a>
 
-<p>Concept-Based Learning | Live Zoom Classes</p>
+  <script>
+    (function () {
 
-<p>📞 8700290436</p>
+      /* ── Hamburger ── */
+      var hbtn = document.getElementById('hamburger');
+      var hnav = document.getElementById('mobileNav');
+      hbtn.addEventListener('click', function () {
+        var open = hnav.classList.toggle('open');
+        hbtn.classList.toggle('open', open);
+        hbtn.setAttribute('aria-expanded', String(open));
+      });
+      document.addEventListener('click', function (e) {
+        if (!hbtn.contains(e.target) && !hnav.contains(e.target)) {
+          hnav.classList.remove('open');
+          hbtn.classList.remove('open');
+          hbtn.setAttribute('aria-expanded', 'false');
+        }
+      });
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') {
+          hnav.classList.remove('open');
+          hbtn.classList.remove('open');
+          hbtn.setAttribute('aria-expanded', 'false');
+        }
+      });
 
-<p>© 2025 Ramvas Gurukul | All Rights Reserved</p>
+      /* ── Progress bar ── */
+      var classEl = document.getElementById('studentClass');
+      var boardEl = document.getElementById('studentBoard');
+      var s1 = document.getElementById('step1');
+      var s2 = document.getElementById('step2');
+      var s3 = document.getElementById('step3');
 
-</footer>
+      function updateProgress() {
+        var c = classEl.value !== '';
+        var b = boardEl.value !== '';
+        s1.className = 'form-step-item ' + (c ? 'done' : 'active');
+        s2.className = 'form-step-item ' + (c && b ? 'done' : c ? 'active' : '');
+        s3.className = 'form-step-item ' + (c && b ? 'active' : '');
+        if (c) classEl.classList.add('filled'); else classEl.classList.remove('filled');
+        if (b) boardEl.classList.add('filled'); else boardEl.classList.remove('filled');
+      }
 
-<a href="https://wa.me/918700290436"
-class="whatsapp-float"
-target="_blank">
+      classEl.addEventListener('change', function () {
+        document.getElementById('group-class').classList.remove('has-error');
+        updateProgress();
+      });
+      boardEl.addEventListener('change', function () {
+        document.getElementById('group-board').classList.remove('has-error');
+        updateProgress();
+      });
 
-Chat on WhatsApp
+      /* ── Form submit → WhatsApp ── */
+      document.getElementById('submitBtn').addEventListener('click', function () {
+        var classVal  = classEl.value.trim();
+        var boardVal  = boardEl.value.trim();
+        var nameVal   = document.getElementById('studentName').value.trim();
+        var subjects  = [];
 
-</a>
+        document.querySelectorAll('#subjectGrid input:checked').forEach(function (el) {
+          subjects.push(el.value);
+        });
 
-<script>
+        var valid = true;
 
-function sendMessage(){
+        if (!classVal) {
+          document.getElementById('group-class').classList.add('has-error');
+          valid = false;
+        }
+        if (!boardVal) {
+          document.getElementById('group-board').classList.add('has-error');
+          valid = false;
+        }
+        if (!valid) return;
 
-var studentClass=document.getElementById("class").value;
-var board=document.getElementById("board").value;
+        /* Build WhatsApp message */
+        var msg = 'Hello Shivam Sir! 👋\n\n'
+          + 'I would like to book a *FREE Demo Class* at Ramvas Gurukul.\n\n'
+          + (nameVal   ? '👤 Name: '     + nameVal    + '\n' : '')
+          + '🎓 Class: '                 + classVal   + '\n'
+          + '📋 Board: '                 + boardVal   + '\n'
+          + '📚 Subjects: '              + (subjects.length ? subjects.join(', ') : 'Not specified') + '\n\n'
+          + 'Please let me know the available demo class slots. Thank you!';
 
-var subjects=[];
+        /* Show toast */
+        var toast = document.getElementById('successToast');
+        toast.style.display = 'block';
+        setTimeout(function () { toast.style.display = 'none'; }, 3200);
 
-document.querySelectorAll('.subject-box input:checked').forEach(function(el){
-subjects.push(el.value);
-});
+        /* Open WhatsApp after brief delay */
+        setTimeout(function () {
+          window.open(
+            'https://wa.me/918700290436?text=' + encodeURIComponent(msg),
+            '_blank',
+            'noopener,noreferrer'
+          );
+        }, 400);
 
-if(studentClass==""||board==""){
-alert("Please select class and board");
-return;
-}
+        /* Mark progress complete */
+        s1.className = 'form-step-item done';
+        s2.className = 'form-step-item done';
+        s3.className = 'form-step-item done';
+      });
 
-var message="Hello, I would like to book a free demo class.\n\nClass: "+studentClass+"\nBoard: "+board+"\nSubjects: "+subjects.join(", ");
+      /* ── Header scroll effect ── */
+      var header = document.querySelector('header');
+      window.addEventListener('scroll', function () {
+        header.style.background = window.scrollY > 40
+          ? 'rgba(7,25,46,0.98)'
+          : 'rgba(15,42,78,0.97)';
+      }, { passive: true });
 
-var url="https://wa.me/918700290436?text="+encodeURIComponent(message);
-
-window.open(url,"_blank");
-
-}
-
-</script>
+    })();
+  </script>
 
 </body>
 </html>

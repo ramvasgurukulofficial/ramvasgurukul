@@ -1,167 +1,781 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ═══ PRIMARY SEO ═══ -->
+  <title>Follow Ramvas Gurukul | YouTube, Instagram, Telegram & More</title>
+  <meta name="description" content="Follow Ramvas Gurukul on YouTube, Instagram, Facebook, WhatsApp, Telegram & LinkedIn. Get free NCERT solutions, study tips, exam strategies and class updates by Shivam Sir — all free.">
+  <meta name="keywords" content="Ramvas Gurukul YouTube, Ramvas Gurukul Instagram, Ramvas Gurukul Telegram, Shivam Sir YouTube channel, NCERT solutions YouTube class 9 10, free study tips YouTube, online coaching YouTube, Ramvas Gurukul social media, Ramvas Gurukul WhatsApp channel, Ramvas Gurukul Facebook">
+  <meta name="author" content="Shivam Mishra – Ramvas Gurukul">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <link rel="canonical" href="https://www.ramvasgurukul.com/social-media.html">
 
-<title>Social Media | Ramvas Gurukul</title>
+  <!-- ═══ OPEN GRAPH ═══ -->
+  <meta property="og:type"         content="website">
+  <meta property="og:url"          content="https://www.ramvasgurukul.com/social-media.html">
+  <meta property="og:title"        content="Follow Ramvas Gurukul | YouTube, Instagram, Telegram & More">
+  <meta property="og:description"  content="Stay connected for free NCERT solutions, study tips, exam strategies and class updates across all platforms.">
+  <meta property="og:image"        content="https://www.ramvasgurukul.com/images/og-image.jpg">
+  <meta property="og:image:width"  content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name"    content="Ramvas Gurukul">
+  <meta property="og:locale"       content="en_IN">
 
-<meta name="description" content="Connect with Ramvas Gurukul on YouTube, Instagram, Facebook, WhatsApp, LinkedIn and Telegram.">
+  <!-- ═══ TWITTER CARD ═══ -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="Follow Ramvas Gurukul on Social Media">
+  <meta name="twitter:description" content="Free NCERT solutions, study tips & exam strategies on YouTube, Instagram, Telegram and more by Shivam Sir.">
+  <meta name="twitter:image"       content="https://www.ramvasgurukul.com/images/og-image.jpg">
 
-<link rel="stylesheet" href="style.css">
+  <!-- ═══ GEO / LOCAL SEO ═══ -->
+  <meta name="geo.region"    content="IN-DL">
+  <meta name="geo.placename" content="Delhi, India">
+  <meta name="theme-color"   content="#0f2a4e">
 
+  <!-- ═══ SCHEMA.ORG ═══ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://www.ramvasgurukul.com/#organization",
+        "name": "Ramvas Gurukul",
+        "url": "https://www.ramvasgurukul.com",
+        "logo": "https://www.ramvasgurukul.com/images/logo.png",
+        "description": "Online coaching for Class 9 & 10 students via live Zoom classes by Shivam Sir.",
+        "telephone": "+918700290436",
+        "email": "ramvasgurukulofficial@gmail.com",
+        "sameAs": [
+          "https://www.youtube.com/@RAMVASGURUKULOFFICIAL",
+          "https://www.instagram.com/ramvasgurukulofficial",
+          "https://www.facebook.com/profile.php?id=61584875817127",
+          "https://whatsapp.com/channel/0029VbCSWTGGehEFTkRpY72o",
+          "https://t.me/Ramvasgurukulofficial",
+          "https://www.linkedin.com/in/shivam-mishra-a901b33b5"
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home",         "item": "https://www.ramvasgurukul.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Social Media", "item": "https://www.ramvasgurukul.com/social-media.html" }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <style>
+    /* ── Social Media page specific styles ── */
+
+    /* Platform quick-jump pills in hero */
+    .platform-pills {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 28px;
+      flex-wrap: wrap;
+      position: relative;
+      z-index: 1;
+    }
+    .platform-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.20);
+      color: var(--white);
+      font-size: 13px;
+      font-weight: 700;
+      padding: 8px 18px;
+      border-radius: var(--radius-full);
+      text-decoration: none;
+      transition: var(--transition);
+    }
+    .platform-pill:hover {
+      background: var(--gold);
+      color: var(--navy);
+      border-color: var(--gold);
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-gold);
+    }
+
+    /* Main social platform cards */
+    .social-cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+      gap: 26px;
+    }
+
+    .social-platform-card {
+      background: var(--white);
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      box-shadow: var(--shadow-xs);
+      border: 1px solid var(--gray-200);
+      transition: var(--transition);
+      display: flex;
+      flex-direction: column;
+    }
+    .social-platform-card:hover {
+      transform: translateY(-7px);
+      box-shadow: var(--shadow-lg);
+      border-color: transparent;
+    }
+
+    /* Coloured top bar per platform */
+    .social-card-bar { height: 5px; width: 100%; flex-shrink: 0; }
+    .bar-yt   { background: linear-gradient(90deg, #ff0000, #cc0000); }
+    .bar-ig   { background: linear-gradient(90deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
+    .bar-fb   { background: linear-gradient(90deg, #1877f2, #0d65d9); }
+    .bar-wa   { background: linear-gradient(90deg, #25D366, #128C7E); }
+    .bar-tg   { background: linear-gradient(90deg, #0088cc, #006699); }
+    .bar-li   { background: linear-gradient(90deg, #0077b5, #005582); }
+
+    .social-card-body {
+      padding: 28px 26px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Platform header with logo + name */
+    .social-platform-header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+    .social-platform-logo {
+      width: 56px;
+      height: 56px;
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 26px;
+      font-weight: 800;
+      flex-shrink: 0;
+    }
+    .lg-yt { background: rgba(255,0,0,0.10);    color: #cc0000; }
+    .lg-ig { background: rgba(225,48,108,0.10); color: #e1306c; }
+    .lg-fb { background: rgba(24,119,242,0.10); color: #1877f2; }
+    .lg-wa { background: rgba(37,211,102,0.10); color: #25D366; }
+    .lg-tg { background: rgba(0,136,204,0.10);  color: #0088cc; }
+    .lg-li { background: rgba(0,119,181,0.10);  color: #0077b5; }
+
+    .social-platform-info h2 {
+      font-family: var(--font-display);
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--navy);
+      margin-bottom: 3px;
+    }
+    .social-handle {
+      font-size: 13px;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    .social-card-desc {
+      font-size: 14.5px;
+      color: var(--gray-600);
+      line-height: 1.75;
+      flex: 1;
+      margin-bottom: 18px;
+    }
+
+    /* Content type tags */
+    .social-content-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin-bottom: 22px;
+    }
+    .content-tag {
+      font-size: 11.5px;
+      font-weight: 700;
+      background: var(--off-white);
+      color: var(--navy);
+      padding: 4px 12px;
+      border-radius: var(--radius-full);
+      border: 1px solid var(--gray-200);
+    }
+
+    /* Platform-specific CTA button colours */
+    .btn-yt { background: #ff0000; color: #fff; }
+    .btn-yt:hover { background: #cc0000; box-shadow: 0 8px 22px rgba(255,0,0,0.35); transform: translateY(-2px); }
+    .btn-ig { background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366); color: #fff; }
+    .btn-ig:hover { opacity: 0.92; box-shadow: 0 8px 22px rgba(220,39,67,0.40); transform: translateY(-2px); }
+    .btn-fb { background: #1877f2; color: #fff; }
+    .btn-fb:hover { background: #0d65d9; box-shadow: 0 8px 22px rgba(24,119,242,0.38); transform: translateY(-2px); }
+    .btn-wa-ch { background: #25D366; color: #fff; }
+    .btn-wa-ch:hover { background: #1ebe5d; box-shadow: 0 8px 22px rgba(37,211,102,0.40); transform: translateY(-2px); }
+    .btn-tg { background: #0088cc; color: #fff; }
+    .btn-tg:hover { background: #006699; box-shadow: 0 8px 22px rgba(0,136,204,0.40); transform: translateY(-2px); }
+    .btn-li { background: #0077b5; color: #fff; }
+    .btn-li:hover { background: #005582; box-shadow: 0 8px 22px rgba(0,119,181,0.38); transform: translateY(-2px); }
+
+    /* Remove generic btn hover transform to avoid double */
+    .btn-yt::before, .btn-ig::before, .btn-fb::before,
+    .btn-wa-ch::before, .btn-tg::before, .btn-li::before { display: none; }
+
+    /* Why follow grid */
+    .why-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(195px, 1fr));
+      gap: 18px;
+    }
+    .why-card {
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      padding: 24px 20px;
+      text-align: center;
+      border: 1px solid var(--gray-200);
+      transition: var(--transition);
+    }
+    .why-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-md); border-color: rgba(245,158,11,0.25); }
+    .why-icon { font-size: 36px; margin-bottom: 12px; display: block; }
+    .why-card h3 {
+      font-family: var(--font-display);
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 7px;
+    }
+    .why-card p { font-size: 13px; color: var(--text-muted); line-height: 1.65; }
+
+    /* Direct WhatsApp section */
+    .direct-wa-box {
+      background: var(--white);
+      border-radius: var(--radius-xl);
+      padding: 48px 44px;
+      text-align: center;
+      box-shadow: var(--shadow-md);
+      border: 2px solid rgba(37,211,102,0.20);
+      max-width: 700px;
+      margin: 0 auto;
+      position: relative;
+      overflow: hidden;
+    }
+    .direct-wa-box::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 5px;
+      background: linear-gradient(90deg, #25D366, #128C7E);
+    }
+    .direct-wa-box:hover { border-color: rgba(37,211,102,0.40); box-shadow: var(--shadow-lg); }
+    .wa-big-icon {
+      width: 80px; height: 80px;
+      background: rgba(37,211,102,0.12);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 38px;
+      margin: 0 auto 20px;
+    }
+    .direct-wa-box h2 {
+      font-family: var(--font-display);
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--navy);
+      margin-bottom: 10px;
+    }
+    .direct-wa-box p {
+      font-size: 15.5px;
+      color: var(--text-muted);
+      line-height: 1.75;
+      max-width: 480px;
+      margin: 0 auto 28px;
+    }
+    .wa-direct-btns { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+
+    @media (max-width: 640px) {
+      .social-cards-grid { grid-template-columns: 1fr; }
+      .why-grid           { grid-template-columns: 1fr 1fr; }
+      .direct-wa-box      { padding: 32px 22px; }
+    }
+    @media (max-width: 400px) {
+      .why-grid { grid-template-columns: 1fr; }
+    }
+  </style>
 </head>
 
 <body>
 
-<header>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
 
-<div class="logo">
-<img src="images/logo.png" alt="Ramvas Gurukul Logo">
-</div>
+  <!-- ═══ HEADER ═══ -->
+  <header>
+    <div class="header-inner">
+      <div class="logo">
+        <a href="index.html" aria-label="Ramvas Gurukul Home">
+          <img src="images/logo.png" alt="Ramvas Gurukul Logo" width="46" height="46"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <div class="logo-icon-placeholder" style="display:none;">RG</div>
+          <div class="logo-text">
+            <span class="logo-name">Ramvas Gurukul</span>
+            <span class="logo-tagline">Concept-Based Learning</span>
+          </div>
+        </a>
+      </div>
+      <nav aria-label="Primary Navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="courses.html">Courses</a>
+        <a href="online-classes.html">Online Classes</a>
+        <a href="study-material.html">Study Material</a>
+        <a href="blog.html">Blog</a>
+        <a href="social-media.html" class="active">Social</a>
+        <a href="contact.html">Contact</a>
+        <a href="demo.html" class="nav-cta">📌 Free Demo</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-nav" id="mobileNav" role="navigation" aria-label="Mobile Navigation">
+      <a href="index.html">🏠 Home</a>
+      <a href="about.html">👨‍🏫 About Shivam Sir</a>
+      <a href="courses.html">📚 Courses</a>
+      <a href="online-classes.html">💻 Online Classes</a>
+      <a href="study-material.html">📄 Study Material</a>
+      <a href="blog.html">✏️ Blog</a>
+      <a href="social-media.html">📱 Social Media</a>
+      <a href="contact.html">📞 Contact</a>
+      <a href="demo.html">📌 Book Free Demo Class</a>
+    </div>
+  </header>
 
-<nav>
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="courses.html">Courses</a>
-<a href="online-classes.html">Online Classes</a>
-<a href="study-material.html">Study Material</a>
-<a href="blog.html">Blog</a>
-<a href="demo.html">Book Free Demo</a>
-<a href="social-media.html">Social Media</a>
-<a href="contact.html">Contact</a>
-</nav>
+  <!-- ═══ BREADCRUMB ═══ -->
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <div class="breadcrumb-inner">
+      <a href="index.html">Home</a>
+      <span>›</span>
+      <span aria-current="page">Social Media</span>
+    </div>
+  </nav>
 
-</header>
+  <main id="main-content">
 
-<section class="page-section">
+    <!-- ═══ HERO ═══ -->
+    <section class="page-hero" aria-labelledby="social-hero-heading">
+      <div style="display:inline-flex;align-items:center;gap:7px;background:rgba(245,158,11,0.15);border:1px solid rgba(245,158,11,0.35);color:var(--gold);font-size:11px;font-weight:700;padding:6px 16px;border-radius:999px;margin-bottom:18px;text-transform:uppercase;letter-spacing:1.2px;position:relative;">
+        📲 Follow &amp; Stay Updated
+      </div>
+      <h1 id="social-hero-heading">Connect with <span>Ramvas Gurukul</span><br>on All Platforms</h1>
+      <p>Follow us for free NCERT solutions, study tips, exam strategies, important questions, and class updates — delivered directly to your feed, all free.</p>
+      <div class="platform-pills" aria-label="Social media platforms">
+        <a href="https://www.youtube.com/@RAMVASGURUKULOFFICIAL"          class="platform-pill" target="_blank" rel="noopener noreferrer">▶ YouTube</a>
+        <a href="https://www.instagram.com/ramvasgurukulofficial"         class="platform-pill" target="_blank" rel="noopener noreferrer">📸 Instagram</a>
+        <a href="https://www.facebook.com/profile.php?id=61584875817127" class="platform-pill" target="_blank" rel="noopener noreferrer">f Facebook</a>
+        <a href="https://whatsapp.com/channel/0029VbCSWTGGehEFTkRpY72o"  class="platform-pill" target="_blank" rel="noopener noreferrer">💬 WhatsApp</a>
+        <a href="https://t.me/Ramvasgurukulofficial"                      class="platform-pill" target="_blank" rel="noopener noreferrer">✈ Telegram</a>
+        <a href="https://www.linkedin.com/in/shivam-mishra-a901b33b5"    class="platform-pill" target="_blank" rel="noopener noreferrer">in LinkedIn</a>
+      </div>
+    </section>
 
-<h2>Connect With Ramvas Gurukul</h2>
+    <!-- ═══ WHY FOLLOW ═══ -->
+    <section class="section section-alt" aria-labelledby="why-follow-heading">
+      <div class="container">
+        <div class="section-header center">
+          <span class="section-label">What You Get</span>
+          <h2 class="section-title" id="why-follow-heading">Why Follow Ramvas Gurukul?</h2>
+          <p class="section-subtitle">Every platform offers something valuable — and it is all completely free for every student.</p>
+        </div>
+        <div class="why-grid">
+          <div class="why-card">
+            <span class="why-icon">📚</span>
+            <h3>Free NCERT Solutions</h3>
+            <p>Chapter-wise explanations and important question solutions shared regularly across platforms.</p>
+          </div>
+          <div class="why-card">
+            <span class="why-icon">🎓</span>
+            <h3>Study Tips &amp; Tricks</h3>
+            <p>Practical, actionable study tips that help students learn faster and retain more before exams.</p>
+          </div>
+          <div class="why-card">
+            <span class="why-icon">📝</span>
+            <h3>Exam Strategies</h3>
+            <p>Board exam guidance, time management tips, and paper-writing strategies from Shivam Sir.</p>
+          </div>
+          <div class="why-card">
+            <span class="why-icon">💻</span>
+            <h3>Coding Tutorials</h3>
+            <p>Programming videos and beginner tips for students starting their coding journey.</p>
+          </div>
+          <div class="why-card">
+            <span class="why-icon">🔔</span>
+            <h3>Class Updates</h3>
+            <p>Stay informed about new batches, schedule changes, special sessions, and announcements.</p>
+          </div>
+          <div class="why-card">
+            <span class="why-icon">🎯</span>
+            <h3>Career Guidance</h3>
+            <p>Advice on stream selection, career paths, and opportunities available after Class 10 &amp; 12.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<p>
-Stay connected with Ramvas Gurukul to receive study tips, important questions, exam preparation guidance, and updates about classes and learning resources.
-</p>
+    <!-- ═══ ALL PLATFORMS ═══ -->
+    <section class="section" aria-labelledby="platforms-heading">
+      <div class="container">
+        <div class="section-header center">
+          <span class="section-label">All Platforms</span>
+          <h2 class="section-title" id="platforms-heading">Find Us Everywhere</h2>
+          <p class="section-subtitle">Follow on your preferred platform — each channel has unique content tailored to its format.</p>
+        </div>
 
-<br><br>
+        <div class="social-cards-grid">
 
-<h3>YouTube</h3>
+          <!-- YouTube -->
+          <div class="social-platform-card">
+            <div class="social-card-bar bar-yt"></div>
+            <div class="social-card-body">
+              <div class="social-platform-header">
+                <div class="social-platform-logo lg-yt">▶</div>
+                <div class="social-platform-info">
+                  <h2>YouTube</h2>
+                  <span class="social-handle">@RAMVASGURUKULOFFICIAL</span>
+                </div>
+              </div>
+              <p class="social-card-desc">
+                Watch in-depth concept explanation videos, chapter-wise NCERT solutions, exam strategies,
+                programming tutorials, and study motivation content — all free on our YouTube channel.
+              </p>
+              <div class="social-content-tags">
+                <span class="content-tag">NCERT Videos</span>
+                <span class="content-tag">Concept Explanations</span>
+                <span class="content-tag">Exam Tips</span>
+                <span class="content-tag">Coding Tutorials</span>
+              </div>
+              <a href="https://www.youtube.com/@RAMVASGURUKULOFFICIAL"
+                 class="btn btn-yt"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="Visit Ramvas Gurukul YouTube Channel">
+                ▶ Visit YouTube Channel
+              </a>
+            </div>
+          </div>
 
-<p>
-Watch concept-based explanation videos, exam strategies, and programming tutorials.
-</p>
+          <!-- Instagram -->
+          <div class="social-platform-card">
+            <div class="social-card-bar bar-ig"></div>
+            <div class="social-card-body">
+              <div class="social-platform-header">
+                <div class="social-platform-logo lg-ig">📸</div>
+                <div class="social-platform-info">
+                  <h2>Instagram</h2>
+                  <span class="social-handle">@ramvasgurukulofficial</span>
+                </div>
+              </div>
+              <p class="social-card-desc">
+                Follow for daily quick study tips, important formulas, motivational posts, exam countdowns,
+                and class announcements shared in a visual, easy-to-remember format.
+              </p>
+              <div class="social-content-tags">
+                <span class="content-tag">Quick Study Tips</span>
+                <span class="content-tag">Formula Cards</span>
+                <span class="content-tag">Motivation</span>
+                <span class="content-tag">Announcements</span>
+              </div>
+              <a href="https://www.instagram.com/ramvasgurukulofficial"
+                 class="btn btn-ig"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="Follow Ramvas Gurukul on Instagram">
+                📸 Follow on Instagram
+              </a>
+            </div>
+          </div>
 
-<a href="https://www.youtube.com/@RAMVASGURUKULOFFICIAL"
-class="btn"
-target="_blank">
+          <!-- Facebook -->
+          <div class="social-platform-card">
+            <div class="social-card-bar bar-fb"></div>
+            <div class="social-card-body">
+              <div class="social-platform-header">
+                <div class="social-platform-logo lg-fb" style="font-family:var(--font-display);font-weight:800;">f</div>
+                <div class="social-platform-info">
+                  <h2>Facebook</h2>
+                  <span class="social-handle">Ramvas Gurukul Official</span>
+                </div>
+              </div>
+              <p class="social-card-desc">
+                Like and follow our Facebook page for educational posts, class updates, new batch announcements,
+                and useful content for students and parents staying connected with Ramvas Gurukul.
+              </p>
+              <div class="social-content-tags">
+                <span class="content-tag">Educational Posts</span>
+                <span class="content-tag">Class Updates</span>
+                <span class="content-tag">Announcements</span>
+                <span class="content-tag">For Parents</span>
+              </div>
+              <a href="https://www.facebook.com/profile.php?id=61584875817127"
+                 class="btn btn-fb"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="Visit Ramvas Gurukul Facebook Page">
+                f Visit Facebook Page
+              </a>
+            </div>
+          </div>
 
-Visit YouTube Channel
+          <!-- WhatsApp Channel -->
+          <div class="social-platform-card">
+            <div class="social-card-bar bar-wa"></div>
+            <div class="social-card-body">
+              <div class="social-platform-header">
+                <div class="social-platform-logo lg-wa">💬</div>
+                <div class="social-platform-info">
+                  <h2>WhatsApp Channel</h2>
+                  <span class="social-handle">Ramvas Gurukul Official</span>
+                </div>
+              </div>
+              <p class="social-card-desc">
+                Join our WhatsApp Channel to receive study material links, important notes, exam reminders,
+                batch notifications, and quick study updates — directly to your WhatsApp with no spam.
+              </p>
+              <div class="social-content-tags">
+                <span class="content-tag">Study Material Links</span>
+                <span class="content-tag">Exam Reminders</span>
+                <span class="content-tag">Batch Updates</span>
+                <span class="content-tag">Quick Notes</span>
+              </div>
+              <a href="https://whatsapp.com/channel/0029VbCSWTGGehEFTkRpY72o"
+                 class="btn btn-wa-ch"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="Join Ramvas Gurukul WhatsApp Channel">
+                💬 Join WhatsApp Channel
+              </a>
+            </div>
+          </div>
 
-</a>
+          <!-- Telegram -->
+          <div class="social-platform-card">
+            <div class="social-card-bar bar-tg"></div>
+            <div class="social-card-body">
+              <div class="social-platform-header">
+                <div class="social-platform-logo lg-tg">✈</div>
+                <div class="social-platform-info">
+                  <h2>Telegram</h2>
+                  <span class="social-handle">@Ramvasgurukulofficial</span>
+                </div>
+              </div>
+              <p class="social-card-desc">
+                Join the Telegram channel for free study material PDFs, important question papers, exam
+                preparation resources, and academic updates shared directly to your device — fast and organised.
+              </p>
+              <div class="social-content-tags">
+                <span class="content-tag">PDF Notes</span>
+                <span class="content-tag">Question Papers</span>
+                <span class="content-tag">Study Files</span>
+                <span class="content-tag">Academic Updates</span>
+              </div>
+              <a href="https://t.me/Ramvasgurukulofficial"
+                 class="btn btn-tg"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="Join Ramvas Gurukul Telegram Channel">
+                ✈ Join Telegram Channel
+              </a>
+            </div>
+          </div>
 
-<br><br><br>
+          <!-- LinkedIn -->
+          <div class="social-platform-card">
+            <div class="social-card-bar bar-li"></div>
+            <div class="social-card-body">
+              <div class="social-platform-header">
+                <div class="social-platform-logo lg-li" style="font-family:var(--font-display);font-weight:800;font-size:22px;">in</div>
+                <div class="social-platform-info">
+                  <h2>LinkedIn</h2>
+                  <span class="social-handle">Shivam Mishra – Ramvas Gurukul</span>
+                </div>
+              </div>
+              <p class="social-card-desc">
+                Connect with Shivam Sir on LinkedIn to follow educational insights, teaching philosophy updates,
+                and professional developments in the online education space.
+              </p>
+              <div class="social-content-tags">
+                <span class="content-tag">Educational Insights</span>
+                <span class="content-tag">Professional Updates</span>
+                <span class="content-tag">Teaching Philosophy</span>
+              </div>
+              <a href="https://www.linkedin.com/in/shivam-mishra-a901b33b5"
+                 class="btn btn-li"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="Connect with Shivam Mishra on LinkedIn">
+                in Connect on LinkedIn
+              </a>
+            </div>
+          </div>
 
-<h3>Instagram</h3>
+        </div>
+      </div>
+    </section>
 
-<p>
-Follow for regular updates, quick study tips, and important announcements.
-</p>
+    <!-- ═══ DIRECT WHATSAPP ═══ -->
+    <section class="section section-alt" aria-labelledby="wa-direct-heading">
+      <div class="container">
+        <div class="direct-wa-box">
+          <div class="wa-big-icon">💬</div>
+          <h2 id="wa-direct-heading">Want to Talk to Shivam Sir Directly?</h2>
+          <p>
+            The channels above are for content and updates. To ask about courses, fees, timings, or book a
+            free demo class — message directly on WhatsApp for a personal response.
+          </p>
+          <div class="wa-direct-btns">
+            <a href="https://wa.me/918700290436?text=Hi%20Shivam%20Sir!%20I%20saw%20your%20social%20media%20and%20want%20to%20know%20more%20about%20Ramvas%20Gurukul."
+               class="btn btn-lg"
+               style="background:#25D366;color:var(--white);box-shadow:0 6px 20px rgba(37,211,102,0.35);"
+               target="_blank"
+               rel="noopener noreferrer">
+              💬 Chat on WhatsApp Directly
+            </a>
+            <a href="demo.html" class="btn btn-outline btn-lg">📌 Book Free Demo</a>
+          </div>
+          <p style="font-size:13px;color:var(--text-muted);margin-top:16px;">
+            📞 8700290436 &nbsp;·&nbsp; Available Mon–Sun, 10 AM – 8 PM IST
+          </p>
+        </div>
+      </div>
+    </section>
 
-<a href="https://www.instagram.com/ramvasgurukulofficial"
-class="btn"
-target="_blank">
+    <!-- ═══ CTA ═══ -->
+    <section class="cta-section" aria-labelledby="social-cta-heading">
+      <div class="container">
+        <h2 id="social-cta-heading">Follow, Learn &amp; <span>Join the Classes</span></h2>
+        <p>Follow on social media for free content — and whenever you're ready, book a free demo class to experience live coaching first-hand.</p>
+        <div class="cta-actions">
+          <a href="demo.html" class="btn btn-lg">📌 Book Free Demo Class</a>
+          <a href="study-material.html" class="btn btn-secondary btn-lg">📂 Get Free Study Material</a>
+        </div>
+      </div>
+    </section>
 
-Follow on Instagram
+  </main>
 
-</a>
+  <!-- ═══ FOOTER ═══ -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="logo-name">Ramvas Gurukul</span>
+        <span class="logo-tagline">Concept-Based Learning</span>
+        <p>Online coaching for Class 9 &amp; 10 students. Live Zoom classes, NCERT solutions, weekly tests, and personal guidance by Shivam Sir.</p>
+        <div class="footer-social">
+          <a href="https://www.youtube.com/@RAMVASGURUKULOFFICIAL" class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="YouTube">▶</a>
+          <a href="https://www.instagram.com/ramvasgurukulofficial" class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">📸</a>
+          <a href="https://www.facebook.com/profile.php?id=61584875817127" class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook">f</a>
+          <a href="https://t.me/Ramvasgurukulofficial" class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="Telegram">✈</a>
+          <a href="https://www.linkedin.com/in/shivam-mishra-a901b33b5" class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">in</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Shivam Sir</a></li>
+          <li><a href="courses.html">All Courses</a></li>
+          <li><a href="online-classes.html">Online Classes</a></li>
+          <li><a href="study-material.html">Free Study Material</a></li>
+          <li><a href="blog.html">Blog &amp; Articles</a></li>
+          <li><a href="demo.html">Book Free Demo</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <ul>
+          <li><a href="tel:+918700290436">📞 +91 8700290436</a></li>
+          <li><a href="mailto:ramvasgurukulofficial@gmail.com">✉ ramvasgurukulofficial@gmail.com</a></li>
+          <li><a href="https://wa.me/918700290436" target="_blank" rel="noopener noreferrer">💬 WhatsApp Chat</a></li>
+        </ul>
+        <h4 style="margin-top:28px;">Class Timings</h4>
+        <ul>
+          <li><span style="color:rgba(255,255,255,0.55);font-size:14px;">Monday – Sunday</span></li>
+          <li><span style="color:rgba(255,255,255,0.55);font-size:14px;">10:00 AM – 8:00 PM IST</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 <strong>Ramvas Gurukul</strong> · All Rights Reserved · <a href="https://www.ramvasgurukul.com">ramvasgurukul.com</a></p>
+      <p>Made with ❤️ for students across India</p>
+    </div>
+  </footer>
 
-<br><br><br>
+  <a href="https://wa.me/918700290436?text=Hi%20Shivam%20Sir!%20I%20found%20you%20on%20social%20media%20and%20want%20to%20know%20more."
+     class="whatsapp-float"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Chat with Ramvas Gurukul on WhatsApp">
+    💬 WhatsApp Us
+  </a>
 
-<h3>Facebook Page</h3>
+  <script>
+    (function () {
+      var btn = document.getElementById('hamburger');
+      var nav = document.getElementById('mobileNav');
+      btn.addEventListener('click', function () {
+        var open = nav.classList.toggle('open');
+        btn.classList.toggle('open', open);
+        btn.setAttribute('aria-expanded', String(open));
+      });
+      document.addEventListener('click', function (e) {
+        if (!btn.contains(e.target) && !nav.contains(e.target)) {
+          nav.classList.remove('open');
+          btn.classList.remove('open');
+          btn.setAttribute('aria-expanded', 'false');
+        }
+      });
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') {
+          nav.classList.remove('open');
+          btn.classList.remove('open');
+          btn.setAttribute('aria-expanded', 'false');
+        }
+      });
 
-<p>
-Stay updated with posts, announcements, and educational content.
-</p>
+      // Scroll animations
+      var els = document.querySelectorAll('.social-platform-card, .why-card');
+      if ('IntersectionObserver' in window) {
+        var observer = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              entry.target.style.animation = 'fadeUp 0.48s ease forwards';
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.09 });
+        els.forEach(function (el, i) {
+          el.style.opacity = '0';
+          el.style.animationDelay = (i % 3) * 70 + 'ms';
+          observer.observe(el);
+        });
+      }
 
-<a href="https://www.facebook.com/profile.php?id=61584875817127"
-class="btn"
-target="_blank">
-
-Visit Facebook Page
-
-</a>
-
-<br><br><br>
-
-<h3>WhatsApp Channel</h3>
-
-<p>
-Join the WhatsApp channel to receive updates, study material, and important notifications.
-</p>
-
-<a href="https://whatsapp.com/channel/0029VbCSWTGGehEFTkRpY72o"
-class="btn"
-target="_blank">
-
-Join WhatsApp Channel
-
-</a>
-
-<br><br><br>
-
-<h3>LinkedIn</h3>
-
-<p>
-Connect professionally and stay informed about educational initiatives and updates.
-</p>
-
-<a href="https://www.linkedin.com/in/shivam-mishra-a901b33b5"
-class="btn"
-target="_blank">
-
-Connect on LinkedIn
-
-</a>
-
-<br><br><br>
-
-<h3>Telegram</h3>
-
-<p>
-Join the Telegram channel to access study materials, notes, and academic updates.
-</p>
-
-<a href="https://t.me/Ramvasgurukulofficial"
-class="btn"
-target="_blank">
-
-Join Telegram Channel
-
-</a>
-
-</section>
-
-<footer>
-
-<p><strong>Ramvas Gurukul</strong></p>
-
-<p>Concept-Based Learning | Live Zoom Classes</p>
-
-<p>📞 8700290436</p>
-
-<p>© 2025 Ramvas Gurukul | All Rights Reserved</p>
-
-</footer>
-
-<a href="https://wa.me/918700290436"
-class="whatsapp-float"
-target="_blank">
-
-Chat on WhatsApp
-
-</a>
+      // Header scroll effect
+      var header = document.querySelector('header');
+      window.addEventListener('scroll', function () {
+        header.style.background = window.scrollY > 40
+          ? 'rgba(7,25,46,0.98)'
+          : 'rgba(15,42,78,0.97)';
+      }, { passive: true });
+    })();
+  </script>
 
 </body>
 </html>
