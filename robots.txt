@@ -1,41 +1,4 @@
-# ============================================================
-# robots.txt — Ramvas Gurukul
-# Website: https://www.ramvasgurukul.com
-# Last Updated: 2025
-# ============================================================
-
-# ── Allow all search engine crawlers ──
 User-agent: *
 Allow: /
 
-# ── Disallow junk/internal paths (if any exist) ──
-Disallow: /cdn-cgi/
-Disallow: /404.html
-
-# ── Crawl delay for heavy bots (prevents server overload) ──
-Crawl-delay: 10
-
-# ── Google ──
-User-agent: Googlebot
-Allow: /
-Crawl-delay: 5
-
-# ── Google Images ──
-User-agent: Googlebot-Image
-Allow: /images/
-
-# ── Bing ──
-User-agent: Bingbot
-Allow: /
-Crawl-delay: 5
-
-# ── DuckDuckGo ──
-User-agent: DuckDuckBot
-Allow: /
-
-# ── Yahoo ──
-User-agent: Slurp
-Allow: /
-
-# ── Point all crawlers to the sitemap ──
 Sitemap: https://www.ramvasgurukul.com/sitemap.xml
