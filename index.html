@@ -757,12 +757,15 @@
        JAVASCRIPT
   ══════════════════════════════════════ -->
   <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
-    // Hamburger menu
-    (function () {
+    // Hamburger menu — wait for DOM to be fully ready
+    document.addEventListener('DOMContentLoaded', function () {
       var btn = document.getElementById('hamburger');
       var nav = document.getElementById('mobileNav');
 
-      btn.addEventListener('click', function () {
+      if (!btn || !nav) return;
+
+      btn.addEventListener('click', function (e) {
+        e.stopPropagation();
         var open = nav.classList.toggle('open');
         btn.classList.toggle('open', open);
         btn.setAttribute('aria-expanded', String(open));
@@ -785,7 +788,7 @@
           btn.setAttribute('aria-expanded', 'false');
         }
       });
-    })();
+    });
 
     // Scroll animation for cards (Intersection Observer)
     (function () {
