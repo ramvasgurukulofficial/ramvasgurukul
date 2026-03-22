@@ -112,7 +112,7 @@
         "name": "Shivam Mishra",
         "jobTitle": "Online Tutor & Founder",
         "description": "B.Tech CSE graduate with 7+ years of teaching experience. Founder of Ramvas Gurukul – online coaching for Class 9–12.",
-        "image": "https://www.ramvasgurukul.com/images/shivam.webp",
+        "image": "https://www.ramvasgurukul.com/images/shivam.jpg",
         "worksFor": { "@id": "https://www.ramvasgurukul.com/#organization" },
         "knowsAbout": ["Mathematics", "Science", "Physics", "Chemistry", "Python", "NCERT Class 9", "NCERT Class 10", "CBSE Board Exams"],
         "alumniOf": { "@type": "CollegeOrUniversity", "name": "B.Tech Computer Science and Engineering" }
@@ -310,7 +310,7 @@
         <div class="hero-image">
           <div class="hero-image-wrapper">
             <img
-              src="images/shivam.webp"
+              src="images/shivam.jpg"
               alt="Shivam Sir – Founder of Ramvas Gurukul, Online Tutor for Class 9 & 10"
               width="320" height="390"
               loading="eager"
@@ -697,7 +697,7 @@
         <h4>Contact Us</h4>
         <ul>
           <li><a href="tel:+918700290436">📞 +91 8700290436</a></li>
-          <li><a href="/cdn-cgi/l/email-protection#bdcfdcd0cbdccedac8cfc8d6c8d1d2dbdbd4ded4dcd1fddad0dcd4d193ded2d0">✉ <span class="__cf_email__" data-cfemail="f381929e8592809486818698869f9c95959a909a929fb3949e929a9fdd909c9e">[email&#160;protected]</span></a></li>
+          <li><a href="mailto:ramvasgurukulofficial@gmail.com">✉ ramvasgurukulofficial@gmail.com</a></li>
           <li><a href="https://wa.me/918700290436" target="_blank" rel="noopener noreferrer">💬 WhatsApp Chat</a></li>
         </ul>
         <h4 style="margin-top:28px;">Class Timings</h4>
@@ -727,7 +727,7 @@
   <!-- ═══════════════════════════════════
        JAVASCRIPT
   ══════════════════════════════════════ -->
-  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+  <script>
     // Hamburger menu
     (function () {
       var btn = document.getElementById('hamburger');
@@ -782,4 +782,15 @@
     // Header scroll effect
     (function () {
       var header = document.querySelector('header');
-      window.addEventListener('scr
+      window.addEventListener('scroll', function () {
+        if (window.scrollY > 40) {
+          header.style.background = 'rgba(7,25,46,0.98)';
+        } else {
+          header.style.background = 'rgba(15,42,78,0.97)';
+        }
+      }, { passive: true });
+    })();
+  </script>
+
+</body>
+</html>
