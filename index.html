@@ -177,11 +177,36 @@
   }
   </script>
 
-  <link rel="stylesheet" href="style.css">
-
-  <!-- Preconnect for faster font loading -->
+  <!-- Preconnect for faster font loading — must be BEFORE stylesheet -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- DNS prefetch for external resources -->
+  <link rel="dns-prefetch" href="https://wa.me">
+  <link rel="dns-prefetch" href="https://www.youtube.com">
+
+  <!-- Critical CSS inline for instant above-fold render -->
+  <style>
+    :root{--navy:#0f2a4e;--gold:#f59e0b;--blue:#2563eb;--white:#ffffff;--font-main:'Plus Jakarta Sans',sans-serif;--font-display:'Sora',sans-serif;--header-h:70px;--max-width:1220px;}
+    *,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+    body{font-family:var(--font-main),sans-serif;background:#f8fafc;color:#0f172a;line-height:1.7;-webkit-font-smoothing:antialiased;overflow-x:hidden;}
+    header{position:sticky;top:0;z-index:1000;height:var(--header-h);background:rgba(15,42,78,0.97);backdrop-filter:blur(16px);}
+    .header-inner{max-width:var(--max-width);margin:0 auto;padding:0 32px;height:100%;display:flex;align-items:center;justify-content:space-between;}
+    img{max-width:100%;height:auto;display:block;}
+    a{color:inherit;text-decoration:none;}
+    .hero{background:linear-gradient(135deg,#0f2a4e 0%,#1a3a6b 60%,#1e4d8c 100%);color:#fff;padding:80px 0 60px;}
+    .hero-container{max-width:1220px;margin:0 auto;padding:0 32px;display:grid;grid-template-columns:1fr auto;gap:48px;align-items:center;}
+    h1{font-family:var(--font-display),sans-serif;font-size:clamp(2rem,4vw,3rem);font-weight:800;line-height:1.15;color:#fff;}
+  </style>
+
+  <!-- Preload LCP hero image -->
+  <link rel="preload" as="image" href="images/shivam.jpg" fetchpriority="high">
+
+  <!-- Non-blocking font load -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Sora:wght@400;600;700;800&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Sora:wght@400;600;700;800&display=swap"></noscript>
+
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -197,7 +222,7 @@
 
       <div class="logo">
         <a href="index.html" aria-label="Ramvas Gurukul Home">
-          <img src="images/logo.png" alt="Ramvas Gurukul Logo" width="46" height="46" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <img src="images/logo.png" alt="Ramvas Gurukul Logo" width="46" height="46" loading="lazy" decoding="async" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
           <div class="logo-icon-placeholder" style="display:none;">RG</div>
           <div class="logo-text">
             <span class="logo-name">Ramvas Gurukul</span>
@@ -315,6 +340,7 @@
               width="320" height="390"
               loading="eager"
               fetchpriority="high"
+              decoding="async"
             >
             <div class="hero-card">
               <span class="hero-card-icon">🎓</span>
@@ -697,7 +723,7 @@
         <h4>Contact Us</h4>
         <ul>
           <li><a href="tel:+918700290436">📞 +91 8700290436</a></li>
-          <li><a href="mailto:ramvasgurukulofficial@gmail.com">✉ ramvasgurukulofficial@gmail.com</a></li>
+          <li><a href="/cdn-cgi/l/email-protection#4634272b302735213334332d332a2920202f252f272a06212b272f2a6825292b">✉ <span class="__cf_email__" data-cfemail="05776468736476627077706e70696a63636c666c6469456268646c692b666a68">[email&#160;protected]</span></a></li>
           <li><a href="https://wa.me/918700290436" target="_blank" rel="noopener noreferrer">💬 WhatsApp Chat</a></li>
         </ul>
         <h4 style="margin-top:28px;">Class Timings</h4>
@@ -727,7 +753,7 @@
   <!-- ═══════════════════════════════════
        JAVASCRIPT
   ══════════════════════════════════════ -->
-  <script>
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
     // Hamburger menu
     (function () {
       var btn = document.getElementById('hamburger');
@@ -782,15 +808,4 @@
     // Header scroll effect
     (function () {
       var header = document.querySelector('header');
-      window.addEventListener('scroll', function () {
-        if (window.scrollY > 40) {
-          header.style.background = 'rgba(7,25,46,0.98)';
-        } else {
-          header.style.background = 'rgba(15,42,78,0.97)';
-        }
-      }, { passive: true });
-    })();
-  </script>
-
-</body>
-</html>
+      window.addEventListener('scroll', func
