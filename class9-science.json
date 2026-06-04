@@ -1,0 +1,170 @@
+{
+  "class": 9,
+  "subject": "science",
+  "subjectIcon": "🔬",
+  "subjectColor": "#10b981",
+  "chapters": [
+    {
+      "id": 1,
+      "name": "Matter in Our Surroundings",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": [
+          {
+            "id": 1,
+            "question": "Which of the following is not a state of matter?",
+            "options": ["Solid", "Liquid", "Gas", "Energy"],
+            "answer": 3
+          },
+          {
+            "id": 2,
+            "question": "The process of conversion of a solid directly into gas is called",
+            "options": ["Evaporation", "Sublimation", "Condensation", "Melting"],
+            "answer": 1
+          },
+          {
+            "id": 3,
+            "question": "Which of the following has the highest kinetic energy?",
+            "options": ["Solid", "Liquid", "Gas", "All have the same"],
+            "answer": 2
+          }
+        ]
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 2,
+      "name": "Is Matter Around Us Pure",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 3,
+      "name": "Atoms and Molecules",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 4,
+      "name": "Structure of the Atom",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 5,
+      "name": "The Fundamental Unit of Life",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 6,
+      "name": "Tissues",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 7,
+      "name": "Motion",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 8,
+      "name": "Force and Laws of Motion",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 9,
+      "name": "Gravitation",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 10,
+      "name": "Work and Energy",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 11,
+      "name": "Sound",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 12,
+      "name": "Improvement in Food Resources",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 13,
+      "name": "Natural Resources",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    }
+  ]
+}

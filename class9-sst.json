@@ -1,0 +1,279 @@
+{
+  "class": 9,
+  "subject": "social-science",
+  "subjectIcon": "🌍",
+  "subjectColor": "#8b5cf6",
+  "chapters": [
+    {
+      "id": 1,
+      "section": "History",
+      "name": "The French Revolution",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": [
+          {
+            "id": 1,
+            "question": "When did the French Revolution begin?",
+            "options": ["1776", "1789", "1799", "1804"],
+            "answer": 1
+          },
+          {
+            "id": 2,
+            "question": "Who was the king of France at the time of the French Revolution?",
+            "options": ["Louis XIV", "Louis XV", "Louis XVI", "Napoleon Bonaparte"],
+            "answer": 2
+          },
+          {
+            "id": 3,
+            "question": "The Bastille was a symbol of",
+            "options": ["Social equality", "Despotic power of the king", "Democracy", "Freedom of speech"],
+            "answer": 1
+          }
+        ]
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 2,
+      "section": "History",
+      "name": "Socialism in Europe and the Russian Revolution",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 3,
+      "section": "History",
+      "name": "Nazism and the Rise of Hitler",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 4,
+      "section": "History",
+      "name": "Forest Society and Colonialism",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 5,
+      "section": "History",
+      "name": "Pastoralists in the Modern World",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 6,
+      "section": "Geography",
+      "name": "India – Size and Location",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 7,
+      "section": "Geography",
+      "name": "Physical Features of India",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 8,
+      "section": "Geography",
+      "name": "Drainage",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 9,
+      "section": "Geography",
+      "name": "Climate",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 10,
+      "section": "Geography",
+      "name": "Natural Vegetation and Wildlife",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 11,
+      "section": "Geography",
+      "name": "Population",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 12,
+      "section": "Civics",
+      "name": "Democracy in the Contemporary World",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 13,
+      "section": "Civics",
+      "name": "What is Democracy? Why Democracy?",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 14,
+      "section": "Civics",
+      "name": "Constitutional Design",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 15,
+      "section": "Civics",
+      "name": "Electoral Politics",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 16,
+      "section": "Civics",
+      "name": "Working of Institutions",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 17,
+      "section": "Civics",
+      "name": "Democratic Rights",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 18,
+      "section": "Economics",
+      "name": "The Story of Village Palampur",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 19,
+      "section": "Economics",
+      "name": "People as Resource",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 20,
+      "section": "Economics",
+      "name": "Poverty as a Challenge",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 21,
+      "section": "Economics",
+      "name": "Food Security in India",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "class": 9,
+  "subject": "mathematics",
+  "subjectIcon": "📐",
+  "subjectColor": "#f59e0b",
+  "chapters": [
+    {
+      "id": 1,
+      "name": "Number Systems",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": [
+          {
+            "id": 1,
+            "question": "Every rational number is",
+            "options": ["a natural number", "an integer", "a real number", "a whole number"],
+            "answer": 2
+          },
+          {
+            "id": 2,
+            "question": "Between two rational numbers, there exist",
+            "options": ["no rational number", "exactly one rational number", "infinitely many rational numbers", "only two rational numbers"],
+            "answer": 2
+          },
+          {
+            "id": 3,
+            "question": "Which of the following is an irrational number?",
+            "options": ["√4", "√9", "√2", "√16"],
+            "answer": 2
+          }
+        ]
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 2,
+      "name": "Polynomials",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 3,
+      "name": "Coordinate Geometry",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 4,
+      "name": "Linear Equations in Two Variables",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 5,
+      "name": "Introduction to Euclid's Geometry",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 6,
+      "name": "Lines and Angles",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 7,
+      "name": "Triangles",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 8,
+      "name": "Quadrilaterals",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 9,
+      "name": "Circles",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 10,
+      "name": "Heron's Formula",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 11,
+      "name": "Surface Areas and Volumes",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 12,
+      "name": "Statistics",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 13,
+      "name": "Probability",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 14,
+      "name": "Areas of Parallelograms and Triangles",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 15,
+      "name": "Constructions",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    }
+  ]
+}

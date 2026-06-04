@@ -1,0 +1,170 @@
+{
+  "class": 10,
+  "subject": "science",
+  "subjectIcon": "🔬",
+  "subjectColor": "#10b981",
+  "chapters": [
+    {
+      "id": 1,
+      "name": "Chemical Reactions and Equations",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": [
+          {
+            "id": 1,
+            "question": "Which of the following is an example of a decomposition reaction?",
+            "options": ["Burning of coal", "Digestion of food", "Electrolysis of water", "Rusting of iron"],
+            "answer": 2
+          },
+          {
+            "id": 2,
+            "question": "A balanced chemical equation is in accordance with",
+            "options": ["Law of conservation of mass", "Law of constant proportions", "Law of multiple proportions", "Avogadro's law"],
+            "answer": 0
+          },
+          {
+            "id": 3,
+            "question": "In the reaction 2Mg + O₂ → 2MgO, magnesium is",
+            "options": ["Reduced", "Oxidised", "Neither oxidised nor reduced", "Both oxidised and reduced"],
+            "answer": 1
+          }
+        ]
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 2,
+      "name": "Acids, Bases and Salts",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 3,
+      "name": "Metals and Non-Metals",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 4,
+      "name": "Carbon and its Compounds",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 5,
+      "name": "Life Processes",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 6,
+      "name": "Control and Coordination",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 7,
+      "name": "How do Organisms Reproduce?",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 8,
+      "name": "Heredity",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 9,
+      "name": "Light – Reflection and Refraction",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 10,
+      "name": "The Human Eye and the Colourful World",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 11,
+      "name": "Electricity",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 12,
+      "name": "Magnetic Effects of Electric Current",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 13,
+      "name": "Our Environment",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    }
+  ]
+}

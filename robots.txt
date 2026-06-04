@@ -1,4 +1,87 @@
+# ════════════════════════════════════════════════════════════
+#  RAMVAS GURUKUL — robots.txt
+#  Online coaching for Class 8, 9 & 10 | https://www.ramvasgurukul.com
+#  Policy: welcome ALL search engines AND AI assistants so the
+#  site can be indexed, recommended and cited everywhere.
+# ════════════════════════════════════════════════════════════
+
+# ── Default: every crawler may access the entire site ──
 User-agent: *
 Allow: /
 
+# ── Major search engines (explicit, for clarity) ──
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# ── AI assistants & answer engines (Generative Engine Optimization) ──
+# Allowing these lets your site be read, summarised and cited
+# when people ask AI tools for coaching recommendations.
+
+# OpenAI / ChatGPT
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic / Claude
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Google AI (Gemini) & Apple AI
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Microsoft Copilot
+User-agent: msnbot
+Allow: /
+
+# Common Crawl (feeds many AI training datasets) & others
+User-agent: CCBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+# ── Sitemap location ──
 Sitemap: https://www.ramvasgurukul.com/sitemap.xml
