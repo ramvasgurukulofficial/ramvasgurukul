@@ -1,0 +1,181 @@
+{
+  "class": 10,
+  "subject": "mathematics",
+  "subjectIcon": "📐",
+  "subjectColor": "#f59e0b",
+  "chapters": [
+    {
+      "id": 1,
+      "name": "Real Numbers",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": [
+          {
+            "id": 1,
+            "question": "The HCF of 36 and 54 is",
+            "options": ["6", "9", "18", "36"],
+            "answer": 2
+          },
+          {
+            "id": 2,
+            "question": "If the HCF of 65 and 117 is expressible in the form 65m – 117, then the value of m is",
+            "options": ["1", "2", "3", "4"],
+            "answer": 1
+          },
+          {
+            "id": 3,
+            "question": "The decimal expansion of the rational number 14587/1250 will terminate after",
+            "options": ["one decimal place", "two decimal places", "three decimal places", "four decimal places"],
+            "answer": 3
+          }
+        ]
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 2,
+      "name": "Polynomials",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 3,
+      "name": "Pair of Linear Equations in Two Variables",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 4,
+      "name": "Quadratic Equations",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 5,
+      "name": "Arithmetic Progressions",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 6,
+      "name": "Triangles",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 7,
+      "name": "Coordinate Geometry",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 8,
+      "name": "Introduction to Trigonometry",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 9,
+      "name": "Some Applications of Trigonometry",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 10,
+      "name": "Circles",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 11,
+      "name": "Areas Related to Circles",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 12,
+      "name": "Surface Areas and Volumes",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 13,
+      "name": "Statistics",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 14,
+      "name": "Probability",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    }
+  ]
+}

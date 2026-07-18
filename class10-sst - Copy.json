@@ -1,0 +1,291 @@
+{
+  "class": 10,
+  "subject": "social-science",
+  "subjectIcon": "🌍",
+  "subjectColor": "#8b5cf6",
+  "chapters": [
+    {
+      "id": 1,
+      "section": "History",
+      "name": "The Rise of Nationalism in Europe",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": [
+          {
+            "id": 1,
+            "question": "Who was the architect of the unification of Germany?",
+            "options": ["Kaiser William I", "Otto von Bismarck", "Count Cavour", "Giuseppe Mazzini"],
+            "answer": 1
+          },
+          {
+            "id": 2,
+            "question": "The Treaty of Vienna of 1815 was drawn up at the",
+            "options": ["Congress of Vienna", "Congress of Berlin", "Congress of Paris", "Congress of London"],
+            "answer": 0
+          },
+          {
+            "id": 3,
+            "question": "The French Revolution broke out in the year",
+            "options": ["1769", "1779", "1789", "1799"],
+            "answer": 2
+          }
+        ]
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 2,
+      "section": "History",
+      "name": "Nationalism in India",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 3,
+      "section": "History",
+      "name": "The Making of a Global World",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 4,
+      "section": "History",
+      "name": "The Age of Industrialisation",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 5,
+      "section": "History",
+      "name": "Print Culture and the Modern World",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 6,
+      "section": "Geography",
+      "name": "Resources and Development",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 7,
+      "section": "Geography",
+      "name": "Forest and Wildlife Resources",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 8,
+      "section": "Geography",
+      "name": "Water Resources",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 9,
+      "section": "Geography",
+      "name": "Agriculture",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 10,
+      "section": "Geography",
+      "name": "Minerals and Energy Resources",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 11,
+      "section": "Geography",
+      "name": "Manufacturing Industries",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 12,
+      "section": "Geography",
+      "name": "Life Lines of National Economy",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 13,
+      "section": "Civics",
+      "name": "Power Sharing",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 14,
+      "section": "Civics",
+      "name": "Federalism",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 15,
+      "section": "Civics",
+      "name": "Gender, Religion and Caste",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 16,
+      "section": "Civics",
+      "name": "Political Parties",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 17,
+      "section": "Civics",
+      "name": "Outcomes of Democracy",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 18,
+      "section": "Economics",
+      "name": "Development",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 19,
+      "section": "Economics",
+      "name": "Sectors of the Indian Economy",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 20,
+      "section": "Economics",
+      "name": "Money and Credit",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 21,
+      "section": "Economics",
+      "name": "Globalisation and the Indian Economy",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    },
+    {
+      "id": 22,
+      "section": "Economics",
+      "name": "Consumer Rights",
+      "notes": "",
+      "summary": "",
+      "test": {
+        "type": "mcq",
+        "questions": []
+      },
+      "testPdf": ""
+    }
+  ]
+}

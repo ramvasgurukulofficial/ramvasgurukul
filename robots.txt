@@ -1,6 +1,6 @@
 # ════════════════════════════════════════════════════════════
 #  RAMVAS GURUKUL — robots.txt
-#  Online coaching for Class 8, 9 & 10 | https://www.ramvasgurukul.com
+#  Online coaching for Class 9 & 10 | https://www.ramvasgurukul.com
 #  Policy: welcome ALL search engines AND AI assistants so the
 #  site can be indexed, recommended and cited everywhere.
 # ════════════════════════════════════════════════════════════
